@@ -26,8 +26,8 @@
       "settings": {
         "show_shadows": false,
         "slideshow_layout": "full-width",
-        "slideshow_height_desktop": "medium",
-        "slideshow_height_mobile": "small",
+        "slideshow_height_desktop": "original",
+        "slideshow_height_mobile": "medium",
         "slideshow_transition": "transition-slide",
         "autoplay": false,
         "frequency": 5
