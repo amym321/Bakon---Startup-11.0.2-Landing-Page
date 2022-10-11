@@ -1,14 +1,58 @@
 {
   "sections": {
-    "home-promotion-1": {
-      "type": "home-promotion",
+    "3684ba1f-069a-4d65-8cf1-513eb6279277": {
+      "type": "home-slideshow",
+      "blocks": {
+        "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0": {
+          "type": "slide",
+          "settings": {
+            "title": "Slideshow",
+            "subtitle": "",
+            "caption": "<p>Introduce customers to your shop with lifestyle imagery and product photography.<\/p>",
+            "crop": "center",
+            "alignment": "left",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "overlay_text_color": "#FFFFFF",
+            "button": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0"
+      ],
       "settings": {
-        "style": "contrast-style",
-        "title": "Welcome",
-        "subtitle": "This is the featured promotion section.",
-        "text": "<p>Use this area to promote a single item with an image on the right.<\/p>",
-        "button_text": "RGAET",
-        "button_link": "shopify:\/\/collections\/all"
+        "show_shadows": false,
+        "slideshow_layout": "content-width",
+        "slideshow_height_desktop": "medium",
+        "slideshow_height_mobile": "medium",
+        "slideshow_transition": "transition-slide",
+        "autoplay": true,
+        "frequency": 5
+      }
+    },
+    "c26455d2-8ba6-4124-96e2-13f7d986da5e": {
+      "type": "home-alternating-content",
+      "blocks": {
+        "template--15994132889787__c26455d2-8ba6-4124-96e2-13f7d986da5e-1665524840258f1c1d-2": {
+          "type": "image",
+          "settings": {
+            "media_alignment": "left",
+            "title": "Alternating content",
+            "caption": "Employ up to three alternating features with an option to align images or videos to the left\/right and include a call to action below.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__c26455d2-8ba6-4124-96e2-13f7d986da5e-1665524840258f1c1d-2"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "",
+        "show_borders": false
       }
     },
     "home-text-columns-with-images-1": {
@@ -122,7 +166,8 @@
     }
   },
   "order": [
-    "home-promotion-1",
+    "3684ba1f-069a-4d65-8cf1-513eb6279277",
+    "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
     "home-image-with-text-overlay-1",
     "home-faq-1",
