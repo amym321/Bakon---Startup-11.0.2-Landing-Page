@@ -175,43 +175,57 @@
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-0": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_1_3.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-1": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_5_1.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-2": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_7_1.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-3": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_8_1.png"
           }
         },
         "e741b467-b75b-4a6d-b38f-3bbf443d8cbc": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_9_1.png"
           }
         },
         "007463ed-c302-475b-9f78-772ed6d323a5": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_10_1.png"
           }
         },
         "0280f1d6-1b79-4490-8ffe-dc5e14a352e1": {
           "type": "logo",
           "settings": {
-            "url": ""
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_11_1.png"
+          }
+        },
+        "ac61df36-10c7-43d6-a95a-8c4f0e668b98": {
+          "type": "logo",
+          "settings": {
+            "url": "",
+            "logo": "shopify:\/\/shop_images\/bakon_Brands_12_1.png"
           }
         }
       },
@@ -222,7 +236,8 @@
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-3",
         "e741b467-b75b-4a6d-b38f-3bbf443d8cbc",
         "007463ed-c302-475b-9f78-772ed6d323a5",
-        "0280f1d6-1b79-4490-8ffe-dc5e14a352e1"
+        "0280f1d6-1b79-4490-8ffe-dc5e14a352e1",
+        "ac61df36-10c7-43d6-a95a-8c4f0e668b98"
       ],
       "settings": {
         "style": "default-style",
