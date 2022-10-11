@@ -82,7 +82,7 @@
           "show_search": false,
           "header_logo": "shopify:\/\/shop_images\/thrilling_foods_logo_2.png",
           "logo_width": 350,
-          "logo_width_mobile": 200,
+          "logo_width_mobile": 130,
           "menu": "main-menu",
           "menu_style": "drawer",
           "transparent": false
