@@ -168,6 +168,67 @@
         "title": "",
         "show_borders": false
       }
+    },
+    "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d": {
+      "type": "home-logo-list",
+      "blocks": {
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-0": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-1": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-2": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-3": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "e741b467-b75b-4a6d-b38f-3bbf443d8cbc": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "007463ed-c302-475b-9f78-772ed6d323a5": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        },
+        "0280f1d6-1b79-4490-8ffe-dc5e14a352e1": {
+          "type": "logo",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-0",
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-1",
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-2",
+        "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-3",
+        "e741b467-b75b-4a6d-b38f-3bbf443d8cbc",
+        "007463ed-c302-475b-9f78-772ed6d323a5",
+        "0280f1d6-1b79-4490-8ffe-dc5e14a352e1"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "NOW AVAILABLE AT THESE AND MANY OTHER FINE RETAILERS",
+        "logos_in_rows": 4
+      }
     }
   },
   "order": [
@@ -176,6 +237,7 @@
     "home-text-columns-with-images-1",
     "ba704e1c-8518-4342-921d-5dd25177d3b7",
     "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6",
-    "db1c7296-49d6-4fbf-b488-0c0c4a73d604"
+    "db1c7296-49d6-4fbf-b488-0c0c4a73d604",
+    "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d"
   ]
 }
