@@ -93,7 +93,7 @@
       ],
       "settings": {
         "style": "default-style",
-        "title": "Text columns with images",
+        "title": "WHY WE DO IT",
         "max_image_width": 25
       }
     },
@@ -152,17 +152,6 @@
       "settings": {
         "title": "FAQ"
       }
-    },
-    "home-image-with-text-1": {
-      "type": "home-image-with-text",
-      "settings": {
-        "style": "contrast-style",
-        "title": "Image with text",
-        "caption": "<p>Select imagery and text that relates to your style and story.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "media_layout": "highlight"
-      }
     }
   },
   "order": [
@@ -170,7 +159,6 @@
     "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
     "home-image-with-text-overlay-1",
-    "home-faq-1",
-    "home-image-with-text-1"
+    "home-faq-1"
   ]
 }
