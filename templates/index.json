@@ -6,15 +6,16 @@
         "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0": {
           "type": "slide",
           "settings": {
-            "title": "Slideshow",
-            "subtitle": "",
-            "caption": "<p>Introduce customers to your shop with lifestyle imagery and product photography.<\/p>",
-            "crop": "center",
+            "image": "shopify:\/\/shop_images\/Bakon_banner_2.jpg",
+            "title": "THRILLING FOODS BAKON™",
+            "subtitle": "The only authentically cured  plant-based bacon.",
+            "caption": "",
+            "crop": "right",
             "alignment": "left",
-            "overlay_opacity": 35,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "overlay_text_color": "#FFFFFF",
-            "button": "",
+            "button": "Taste The Difference",
             "link": ""
           }
         }
@@ -28,7 +29,7 @@
         "slideshow_height_desktop": "medium",
         "slideshow_height_mobile": "medium",
         "slideshow_transition": "transition-slide",
-        "autoplay": true,
+        "autoplay": false,
         "frequency": 5
       }
     },
