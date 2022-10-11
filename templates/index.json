@@ -245,6 +245,100 @@
         "title": "NOW AVAILABLE AT THESE AND MANY OTHER FINE RETAILERS",
         "logos_in_rows": 4
       }
+    },
+    "347e0bdc-08c8-4849-986a-e53c086818b1": {
+      "type": "home-text-columns-with-images",
+      "blocks": {
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-0": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-1": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-0",
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-1",
+        "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "what",
+        "max_image_width": 100
+      }
+    },
+    "3197f01b-0995-4322-a5fe-ce6288b04a55": {
+      "type": "home-text-columns-with-images",
+      "blocks": {
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-0": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-1": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-2": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "b6b16d74-c858-4d45-aa98-190b94ee7615": {
+          "type": "text_column",
+          "settings": {
+            "title": "Feature title",
+            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-0",
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-1",
+        "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-2",
+        "b6b16d74-c858-4d45-aa98-190b94ee7615"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "Text columns with images",
+        "max_image_width": 100
+      }
     }
   },
   "order": [
@@ -254,6 +348,8 @@
     "ba704e1c-8518-4342-921d-5dd25177d3b7",
     "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6",
     "db1c7296-49d6-4fbf-b488-0c0c4a73d604",
-    "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d"
+    "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d",
+    "347e0bdc-08c8-4849-986a-e53c086818b1",
+    "3197f01b-0995-4322-a5fe-ce6288b04a55"
   ]
 }
