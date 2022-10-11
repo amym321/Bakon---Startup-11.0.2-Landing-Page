@@ -374,11 +374,35 @@
     },
     "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87": {
       "type": "pxs-newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "text": "<p>Invite customers to join your mailing list.<\/p>",
         "desktop_alignment": "left",
         "mobile_alignment": "top"
+      }
+    },
+    "c92a8548-2320-4746-8e4e-50d80dc9ab98": {
+      "type": "home-alternating-content",
+      "blocks": {
+        "template--15994132889787__c92a8548-2320-4746-8e4e-50d80dc9ab98-1665529762d5e35065-0": {
+          "type": "image",
+          "settings": {
+            "media_alignment": "left",
+            "title": "Alternating content",
+            "caption": "Employ up to three alternating features with an option to align images or videos to the left\/right and include a call to action below.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__c92a8548-2320-4746-8e4e-50d80dc9ab98-1665529762d5e35065-0"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "",
+        "show_borders": false
       }
     }
   },
@@ -393,6 +417,7 @@
     "347e0bdc-08c8-4849-986a-e53c086818b1",
     "3197f01b-0995-4322-a5fe-ce6288b04a55",
     "36ce41a2-efa1-4419-af0d-853fdc8fded0",
-    "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87"
+    "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87",
+    "c92a8548-2320-4746-8e4e-50d80dc9ab98"
   ]
 }
