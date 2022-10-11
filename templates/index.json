@@ -144,6 +144,30 @@
         "title": "",
         "show_borders": false
       }
+    },
+    "db1c7296-49d6-4fbf-b488-0c0c4a73d604": {
+      "type": "home-alternating-content",
+      "blocks": {
+        "template--15994132889787__db1c7296-49d6-4fbf-b488-0c0c4a73d604-1665524840258f1c1d-0": {
+          "type": "image",
+          "settings": {
+            "media_alignment": "left",
+            "title": "GOES GREAT ON EVERYTHING",
+            "caption": "BLTs, salads, cheeseburgers, pasta carbonara, baked potatoes, doughnuts, you name it. Anywhere you would use traditional bacon, Bakon Strips is the perfect meaty, crispy, deeply satisfying substitute. All the taste with zero sacrifice!",
+            "button_text": "",
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/bakon_cheeseburger.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__db1c7296-49d6-4fbf-b488-0c0c4a73d604-1665524840258f1c1d-0"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "",
+        "show_borders": false
+      }
     }
   },
   "order": [
@@ -151,6 +175,7 @@
     "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
     "ba704e1c-8518-4342-921d-5dd25177d3b7",
-    "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6"
+    "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6",
+    "db1c7296-49d6-4fbf-b488-0c0c4a73d604"
   ]
 }
