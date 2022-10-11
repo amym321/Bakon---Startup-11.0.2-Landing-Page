@@ -284,7 +284,7 @@
       ],
       "settings": {
         "style": "default-style",
-        "title": "what",
+        "title": "WHAT MAKES BAKON™ DIFFERENT?",
         "max_image_width": 100
       }
     },
@@ -336,8 +336,49 @@
       ],
       "settings": {
         "style": "default-style",
-        "title": "Text columns with images",
+        "title": "THRILLING REVIEWS",
         "max_image_width": 100
+      }
+    },
+    "36ce41a2-efa1-4419-af0d-853fdc8fded0": {
+      "type": "home-slideshow",
+      "blocks": {
+        "template--15994132889787__36ce41a2-efa1-4419-af0d-853fdc8fded0-1665529741db5a4fff-0": {
+          "type": "slide",
+          "settings": {
+            "title": "Slideshow",
+            "subtitle": "",
+            "caption": "<p>Introduce customers to your shop with lifestyle imagery and product photography.<\/p>",
+            "crop": "center",
+            "alignment": "left",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "overlay_text_color": "#FFFFFF",
+            "button": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__36ce41a2-efa1-4419-af0d-853fdc8fded0-1665529741db5a4fff-0"
+      ],
+      "settings": {
+        "show_shadows": false,
+        "slideshow_layout": "content-width",
+        "slideshow_height_desktop": "medium",
+        "slideshow_height_mobile": "medium",
+        "slideshow_transition": "transition-slide",
+        "autoplay": true,
+        "frequency": 5
+      }
+    },
+    "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87": {
+      "type": "pxs-newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "text": "<p>Invite customers to join your mailing list.<\/p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
       }
     }
   },
@@ -350,6 +391,8 @@
     "db1c7296-49d6-4fbf-b488-0c0c4a73d604",
     "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d",
     "347e0bdc-08c8-4849-986a-e53c086818b1",
-    "3197f01b-0995-4322-a5fe-ce6288b04a55"
+    "3197f01b-0995-4322-a5fe-ce6288b04a55",
+    "36ce41a2-efa1-4419-af0d-853fdc8fded0",
+    "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87"
   ]
 }
