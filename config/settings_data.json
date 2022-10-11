@@ -23,7 +23,7 @@
     "font_logo": "poppins_n4",
     "font_logo_capitalize": false,
     "font_heading": "poppins_n8",
-    "font_heading_capitalize": true,
+    "font_heading_capitalize": false,
     "font_section_heading_bold": false,
     "font_section_heading_capitalize": false,
     "font_meta_bold": false,

@@ -14,7 +14,7 @@
             "alignment": "left",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
-            "overlay_text_color": "#FFFFFF",
+            "overlay_text_color": "#ffffff",
             "button": "Taste The Difference",
             "link": "shopify:\/\/collections"
           }
@@ -24,6 +24,7 @@
         "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0"
       ],
       "settings": {
+        "custom_field": "",
         "show_shadows": false,
         "slideshow_layout": "full-width",
         "slideshow_height_desktop": "original",
@@ -39,9 +40,9 @@
         "template--15994132889787__c26455d2-8ba6-4124-96e2-13f7d986da5e-1665524840258f1c1d-2": {
           "type": "image",
           "settings": {
-            "media_alignment": "left",
-            "title": "Alternating content",
-            "caption": "Employ up to three alternating features with an option to align images or videos to the left\/right and include a call to action below.",
+            "media_alignment": "right",
+            "title": "The plant-based bacon you'll actually want to eat.",
+            "caption": "Salt-cured and smoked just like the traditional pork product, Bakon Strips™ bring you all of the sizzle, aroma, taste and texture of bacon without the cruelty.\n\nIt's bacon you can feel good about because it's healthier for you, your family, it doesn’t harm animals or our planet - but just as importantly, it's bacon you'll actually enjoy eating.",
             "button_text": "",
             "button_link": ""
           }
@@ -51,6 +52,7 @@
         "template--15994132889787__c26455d2-8ba6-4124-96e2-13f7d986da5e-1665524840258f1c1d-2"
       ],
       "settings": {
+        "custom_field": "plant-based",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -62,28 +64,31 @@
         "block-1": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "title": "SATISFACTION",
+            "caption": "<p>To bring all of the sizzle, aroma, taste and texture of eating meat without the cruelty, and not feeling or a compromise. <\/p>",
             "button_text": "",
-            "button_link": ""
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/satisfaction.png"
           }
         },
         "block-2": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "title": "SUSTAINABILITY",
+            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. <\/p>",
             "button_text": "",
-            "button_link": ""
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/sustainability.png"
           }
         },
         "block-3": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
+            "title": "HEALTHY LIVING",
+            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. <\/p>",
             "button_text": "",
-            "button_link": ""
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/healthy.png"
           }
         }
       },
@@ -93,6 +98,7 @@
         "block-3"
       ],
       "settings": {
+        "custom_field": "why-do-it",
         "style": "default-style",
         "title": "WHY WE DO IT",
         "max_image_width": 25
@@ -117,6 +123,7 @@
         "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -141,6 +148,7 @@
         "6cd65d75-9b41-4bd6-99ca-3bb5435f5c0b"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -165,6 +173,7 @@
         "template--15994132889787__db1c7296-49d6-4fbf-b488-0c0c4a73d604-1665524840258f1c1d-0"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -283,6 +292,7 @@
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "WHAT MAKES BAKON™ DIFFERENT?",
         "max_image_width": 100
@@ -339,6 +349,7 @@
         "b6b16d74-c858-4d45-aa98-190b94ee7615"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "THRILLING REVIEWS",
         "max_image_width": 25
@@ -357,7 +368,7 @@
             "alignment": "left",
             "overlay_opacity": 35,
             "overlay_color": "#000000",
-            "overlay_text_color": "#FFFFFF",
+            "overlay_text_color": "#ffffff",
             "button": "",
             "link": ""
           }
@@ -367,6 +378,7 @@
         "template--15994132889787__36ce41a2-efa1-4419-af0d-853fdc8fded0-1665529741db5a4fff-0"
       ],
       "settings": {
+        "custom_field": "",
         "show_shadows": false,
         "slideshow_layout": "content-width",
         "slideshow_height_desktop": "medium",
@@ -404,6 +416,7 @@
         "template--15994132889787__c92a8548-2320-4746-8e4e-50d80dc9ab98-1665529762d5e35065-0"
       ],
       "settings": {
+        "custom_field": "",
         "style": "default-style",
         "title": "",
         "show_borders": false
