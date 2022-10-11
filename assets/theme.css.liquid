@@ -12385,3 +12385,88 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .password-main-footer a:hover {
   color: {{ settings.heading-color }};
 }
+
+/********************************/
+/****** ADDED STYLES - am *******/
+/********************************/
+
+/* SLIDESHOW */
+.content-width .slideshow__wrapper {
+  padding: 40px 0;
+}
+@media (min-width: 720px){ 
+  .full-width .slideshow-slide__content {
+    padding: 40px 50% 55px 50px;
+  }
+  .slideshow-slide__content, .full-width .slideshow-slide__content {
+    max-width: none;
+  }
+}
+
+@media (max-width: 719px){ 
+  .has-image .slideshow-slide__content { 
+    text-align:center;
+    background-color:  #FAF0DF;
+  }
+}
+
+/* SLIDESHOW for Top Banner*/
+.top-banner {}
+
+/* SLIDESHOW for Special Offer */
+.special {}
+
+/* FAQ for Ingredients */
+.ingredients .faq__details {
+  padding: 12px 0; 
+  border-bottom: 3px solid #???;
+}  
+.ingredients .faq__details:first-child { 
+  border-top:none;
+}
+
+/* LOGO LIST allows 8 across */
+.rows-of-8 .dynamic-logo-list-item { 
+  width: 12.5%;
+}
+@media (max-width: 719px){ 
+  .rows-of-8 .dynamic-logo-list-item { 
+    width: 25%;
+  }
+}
+
+/* TEXT COLUMNS WITH IMAGES for Reviews */
+.review .module-container .home-inline-feature {
+  color: #???;
+}
+@media (min-width: 720px){  
+  .review .module-container .home-inline-feature {
+    width: 25%;
+  }
+}
+
+/* TEXT COLUMNS WITH IMAGES for Different */
+.different {}
+
+/* ALTERNATING CONTENT for Plant Based */
+.plant-based {}
+
+/* ALTERNATING CONTENT for Why Do It */
+.why-do-it {}
+
+/* ALTERNATING CONTENT for Ingredients */
+.ingredients-image {}
+
+/* ALTERNATING CONTENT for Save The Pigs */
+.save-pigs {}
+
+/* ALTERNATING CONTENT for Everything */
+.everything {}
+
+/* ALTERNATING CONTENT for Everything */
+.email {}
+
+/* FAQ for Ingredients */
+.ingredients-faq {}
+
+/****** END ADDED STYLES - am *******/
