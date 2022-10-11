@@ -38,6 +38,7 @@
     "product_stock_overlay": false,
     "product_stock_overlay_show": 5,
     "product_ratings_star_display": "prod-page",
+    "favicon": "shopify:\/\/shop_images\/TF_Bakon_Strip_flavIcon.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#fff",
@@ -90,11 +91,11 @@
       "general-announcement-bar": {
         "type": "general-announcement-bar",
         "settings": {
-          "show_promotion": false,
+          "show_promotion": true,
           "promotion_home_only": false,
-          "promotion_style": "accent-style",
-          "promotion_text": "",
-          "promotion_url": ""
+          "promotion_style": "standard-style",
+          "promotion_text": "ALL ORDERS OVER $50 SHIP FREE",
+          "promotion_url": "shopify:\/\/pages\/wholesale"
         }
       }
     },
