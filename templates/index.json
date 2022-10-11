@@ -105,7 +105,7 @@
           "settings": {
             "media_alignment": "left",
             "title": "INGREDIENTS",
-            "caption": "below.",
+            "caption": "",
             "button_text": "",
             "button_link": "",
             "image": "shopify:\/\/shop_images\/hand_with_bakon_3.png"
@@ -121,60 +121,28 @@
         "show_borders": false
       }
     },
-    "home-image-with-text-overlay-1": {
-      "type": "home-image-with-text-overlay",
-      "settings": {
-        "image_height_desktop": "large",
-        "image_height_mobile": "small",
-        "title": "Image with text overlay",
-        "caption": "<p>Select imagery and text that relates to your style and story.<\/p>",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "overlay_text_color": "#ffffff",
-        "button_text": "",
-        "button_link": ""
-      }
-    },
-    "home-faq-1": {
-      "type": "home-faq",
+    "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6": {
+      "type": "home-alternating-content",
       "blocks": {
-        "block-1": {
-          "type": "faq",
+        "6cd65d75-9b41-4bd6-99ca-3bb5435f5c0b": {
+          "type": "image",
           "settings": {
-            "title": "Want to know anything else?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        },
-        "block-2": {
-          "type": "faq",
-          "settings": {
-            "title": "Want to know anything else?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        },
-        "block-3": {
-          "type": "faq",
-          "settings": {
-            "title": "Want to know anything else?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        },
-        "block-4": {
-          "type": "faq",
-          "settings": {
-            "title": "Want to know anything else?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+            "media_alignment": "right",
+            "title": "SAVING THE PIGS",
+            "caption": "",
+            "button_text": "",
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/Bakon_Save_the_Pigs.png"
           }
         }
       },
       "block_order": [
-        "block-1",
-        "block-2",
-        "block-3",
-        "block-4"
+        "6cd65d75-9b41-4bd6-99ca-3bb5435f5c0b"
       ],
       "settings": {
-        "title": "FAQ"
+        "style": "default-style",
+        "title": "",
+        "show_borders": false
       }
     }
   },
@@ -183,7 +151,6 @@
     "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
     "ba704e1c-8518-4342-921d-5dd25177d3b7",
-    "home-image-with-text-overlay-1",
-    "home-faq-1"
+    "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6"
   ]
 }
