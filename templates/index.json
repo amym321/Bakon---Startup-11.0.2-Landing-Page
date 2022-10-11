@@ -97,6 +97,30 @@
         "max_image_width": 25
       }
     },
+    "ba704e1c-8518-4342-921d-5dd25177d3b7": {
+      "type": "home-alternating-content",
+      "blocks": {
+        "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2": {
+          "type": "image",
+          "settings": {
+            "media_alignment": "left",
+            "title": "INGREDIENTS",
+            "caption": "below.",
+            "button_text": "",
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/hand_with_bakon_3.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2"
+      ],
+      "settings": {
+        "style": "default-style",
+        "title": "",
+        "show_borders": false
+      }
+    },
     "home-image-with-text-overlay-1": {
       "type": "home-image-with-text-overlay",
       "settings": {
@@ -158,6 +182,7 @@
     "3684ba1f-069a-4d65-8cf1-513eb6279277",
     "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
+    "ba704e1c-8518-4342-921d-5dd25177d3b7",
     "home-image-with-text-overlay-1",
     "home-faq-1"
   ]
