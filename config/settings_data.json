@@ -80,9 +80,9 @@
           "header_sticky": true,
           "show_cart": true,
           "show_search": false,
-          "header_logo": "shopify:\/\/shop_images\/THRILLING_-300x90-transparent.png",
+          "header_logo": "shopify:\/\/shop_images\/thrilling_foods_logo_2.png",
           "logo_width": 300,
-          "logo_width_mobile": 90,
+          "logo_width_mobile": 200,
           "menu": "main-menu",
           "menu_style": "drawer",
           "transparent": false
