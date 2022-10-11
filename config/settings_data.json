@@ -94,8 +94,8 @@
           "show_promotion": true,
           "promotion_home_only": false,
           "promotion_style": "standard-style",
-          "promotion_text": "ALL ORDERS OVER $50 SHIP FREE",
-          "promotion_url": "shopify:\/\/pages\/wholesale"
+          "promotion_text": "WE ARE EXPERIENCING HIGH ORDER VOLUME AND THIS CAN ADD A WEEK TO ORDER FULFILLMENTS.",
+          "promotion_url": "shopify:\/\/collections"
         }
       }
     },
