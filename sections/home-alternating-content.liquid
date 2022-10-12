@@ -90,10 +90,9 @@
           {% endif %}
 
           {% if block.settings.caption_2 != blank %}
-            <div class="rte">
-              {% if block.settings.caption_2 != blank %}
-                <p>{{ block.settings.caption_2 | escape | newline_to_br }}</p>
-              {% endif %}
+            {% assign caption_2 = block.settings.caption_2 | default: '' %}
+            <div class="">
+              {{ caption_2 }}
             </div>
           {% endif %}
 

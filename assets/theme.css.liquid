@@ -12390,38 +12390,176 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 /****** ADDED STYLES - am *******/
 /********************************/
 
+/* MAX WIDTH */
+.section__header, .main-content, .pxs-map-card-wrapper, 
+.newsletter-form, .faq__section-header, .faq__section-wrapper, .module-inner, .main-footer,
+.full-slideshow-wrapper.content-width, .slideshow-slide__content, .newsletter {
+  max-width: 1200px;
+}
+@media (min-width: 720px) {
+  .content-width .slideshow__wrapper,  
+  .full-slideshow-wrapper.content-width {
+    max-width: 1200px;
+  }
+}
+
 /* FONTS */
-/*
+
 @font-face { font-family: "proxima-nova, sans-serif;"; src: url('../assets/ProximaNova-Regular.woff')  format('woff'); }
 
-@font-face { font-family: "Compacta BT"; src: url('../assets/Compacta-BT.woff')  format('woff'); }
-/*
+
+@font-face { 
+  font-family: "Compacta-BT"; 
+  src: url('{{ "Compacta-BT.woff" | asset_url }}') format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Single Product Webicons Regular";
+  src: url('{{ "singleproductwebicons-regular.woff" | asset_url }}') format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+}
+
+.special .slideshow-slide__subheading, .special h2 {
+  font-family: oswald;
+}
+.logo-section,  .section-title {
+  font-size: 35px;
+}
+.review .section-title {
+  font-size: 32px;
+}
+.review .subheading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.different  .section-title {
+  font-size: 82px;
+}
+.different  .feature-title {
+  font-size: 28px;
+}
+.different .subheading {
+  font-family: oswald;
+  font-weight:800;
+}
+.different  .home-inline-cta  a {
+  font-weight: 800;
+}
+.plant-based p {
+  font-size: 21px;
+}
+.plant-based .feature-title {
+  font-size: 36px;
+}
+.why-do-it .section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+.why-do-it .subheading {
+  font-style: normal;
+  font-weight: 400;
+  /*font-size: 1rem;*/
+  font-size: 21px;
+}
+.why-do-it .feature-title {
+  font-size:56px;
+}
+.ingredients-image .feature-title, .ingredients-faq .feature-title {
+  font-size: 82px;
+}
+.save-pigs .feature-title:first-of-type {
+  font-size: 82px;
+}
+.save-pigs .feature-title:nth-of-type(2) {
+  font-size: 82px;
+} 
+.everything .feature-title {
+  font-size: 82px;
+}
+.email .feature-title {
+  font-size: 44px;
+}
+
+@media (min-width: 720px){ 
+  .top-banner .slideshow-slide__heading, 
+  .special .slideshow-slide__heading {
+    font-family: "Compacta-BT"; 
+    font-size: 74px !important;
+    line-height: 74px !important;
+  /*  font-size: 132px !important;*/
+  }
+  .top-banner .slideshow-slide__subheading {
+    /*font-size: 48px !important;*/
+    font-size: 30px !important;
+  }
+  .special .slideshow-slide__subheading {
+    font-size: 48px !important;
+  }
+  .special p, .special .slideshow-slide__text {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .top-banner .slideshow-slide__content a,
+  .special .slideshow-slide__content a {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 719px){ 
+  .top-banner  .slideshow-slide__heading,
+  .special  .slideshow-slide__heading {
+    font-family: "Compacta-BT"; 
+    line-height: 50px !important;
+    font-size: 50px !important;
+  }
+  .top-banner  .slideshow-slide__subheading,
+  .special  .slideshow-slide__subtext {
+    font-size: 22px !important;
+  }
+
+  .top-banner .slideshow-slide__content a,
+  .special .slideshow-slide__content a {
+    font-size: 16px !important;
+  }
+}
 
 
 /* SLIDESHOW */
 .content-width .slideshow__wrapper {
   padding: 40px 0;
-}
+} 
+
 @media (min-width: 720px){ 
   .full-width .slideshow-slide__content {
-    padding: 40px 50% 55px 50px;
-  }
-  .slideshow-slide__content, .full-width .slideshow-slide__content {
-    max-width: none;
+    padding: 40px 50% 55px 30px;
   }
   .slideshow-slide__image--mobile {
     display:none;
   }
+  .special .slideshow-slide__text:not p {
+    margin: 8px 0;
+  }
 }
 
-@media (max-width: 719px){ 
+
+@media (max-width: 719px){
   .has-image .slideshow-slide__content { 
     text-align:center;
   }
   .slideshow-slide__image--desktop {
     display:none;
   }
+  .slideshow-slide__content { 
+    padding: 55px 30px !important;
+  }
 }
+
 
 /* SLIDESHOW for Top Banner*/
 @media (max-width: 719px){ 
@@ -12429,7 +12567,6 @@ body:not(.user-is-tabbing) .faq__summary:focus {
     background-color:  #FAF0DF;
   }
 }
-
 
 /* SLIDESHOW for Special Offer */
 .special {
@@ -12444,26 +12581,15 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .special p, .special .slideshow-slide__text, .special .slideshow-slide__subheading {
   color: #542326 !important;
 }
-.special .slideshow-slide__subheading, .special h2 {
-  font-family: oswald;
-}
+
 .special h2 {
   color: #fff;
-  font-size: 100px !important;
 }
 .special h2:first-of-type {
   margin-bottom: 0;
 }
 .special h2:nth-of-type(2) {
   margin-top: 0;
-}
-.slideshow-slide__subheading {
-  font-size: 60px !important;
-}
-.special p, .special .slideshow-slide__text {
-  font-family: poppins;
-  font-weight: 500;
-  font-size: 21px !important;
 }
 
 .special .slideshow-slide__text-line {
@@ -12514,9 +12640,6 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .review .subheading {
   padding-top: 0;
   margin-top: 0 !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
 @media (min-width: 720px){  
@@ -12545,13 +12668,7 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 .different .subheading {
-  font-family: oswald;
-  font-weight:800;
   margin-top: 0 !important;
-}
-
-.different  .home-inline-cta  a {
-  font-weight: 800;
 }
 
 .different  .home-inline-cta {
@@ -12568,10 +12685,10 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .plant-based {
   background-color: #D98888;
 }
-
 .plant-based .feature-title {
-  color: #FBF6F0;;
+  color: #FBF6F0;
 }
+
 
 /* ALTERNATING CONTENT for Why Do It */
 .why-do-it {
@@ -12583,18 +12700,13 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .why-do-it .subheading {
   color: #000;
   margin-top: 0 !important;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
 /* ALTERNATING CONTENT for Ingredients */
-.ingredients-image, .ingredients-faq, .ingredients-image h1, .ingredients-faq h1 {
+.ingredients-image, .ingredients-faq, .ingredients-image .feature-title, .ingredients-faq .feature-title {
   background-color: #542326;
   color: #FAF0DF;
 }
-
-
 
 /* ALTERNATING CONTENT for Save The Pigs */
 .save-pigs {
@@ -12604,7 +12716,8 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 
 .save-pigs .feature-title:first-of-type {
   margin-bottom:0;
-}.save-pigs .feature-title:nth-of-type(2) {
+}
+.save-pigs .feature-title:nth-of-type(2) {
   margin-top:0;
 }
 
@@ -12617,8 +12730,39 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   color: #FAF0DF;
 }
 
-/* ALTERNATING CONTENT for Everything */
-.email {}
+/* ALTERNATING CONTENT for Email */
+.email .media-aligned-left .home-left-right-text {
+  padding-left: 20px;
+}
+
+.email .newsletter-form {
+  padding: 0;
+}
+
+.email .newsletter-form__fields {
+  margin-top: 15px;
+}
+
+@media (min-width: 720px){  
+  .email .newsletter-form__fields {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .email .newsletter-form__button {
+    margin-top: 0;
+  }
+}
+
+.email .newsletter-form__field:first-child {
+  width: 100%;
+}
+
+.email .newsletter-form__button {
+  flex-grow: 0;
+  padding-left: 30px;
+}
 
 /* FAQ for Ingredients */
 .ingredients-faq {}
