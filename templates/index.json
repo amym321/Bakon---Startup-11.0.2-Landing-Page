@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/Bakon_banner_2.jpg",
             "subtitle_top": "",
             "title": "THRILLING FOODS BAKON™",
-            "title_2": "Heading 2",
+            "title_2": "",
             "subtitle": "The only authentically cured  plant-based bacon.",
             "caption": "",
             "crop": "right",
@@ -44,7 +44,7 @@
           "settings": {
             "media_alignment": "right",
             "title": "The plant-based bacon you'll actually want to eat.",
-            "title_2": "Heading 2",
+            "title_2": "",
             "caption": "Salt-cured and smoked just like the traditional pork product, Bakon Strips™ bring you all of the sizzle, aroma, taste and texture of bacon without the cruelty.\n\nIt's bacon you can feel good about because it's healthier for you, your family, it doesn’t harm animals or our planet - but just as importantly, it's bacon you'll actually enjoy eating.",
             "button_text": "",
             "button_link": ""
@@ -119,7 +119,7 @@
           "settings": {
             "media_alignment": "left",
             "title": "INGREDIENTS",
-            "title_2": "Heading 2",
+            "title_2": "",
             "caption": "",
             "button_text": "",
             "button_link": "",
@@ -171,7 +171,7 @@
           "settings": {
             "media_alignment": "left",
             "title": "GOES GREAT ON EVERYTHING",
-            "title_2": "Heading 2",
+            "title_2": "",
             "caption": "BLTs, salads, cheeseburgers, pasta carbonara, baked potatoes, doughnuts, you name it. Anywhere you would use traditional bacon, Bakon Strips is the perfect meaty, crispy, deeply satisfying substitute. All the taste with zero sacrifice!",
             "button_text": "",
             "button_link": "",
