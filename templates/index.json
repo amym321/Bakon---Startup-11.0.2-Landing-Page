@@ -7,6 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bakon_banner_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Bakon_banner.jpg",
             "subtitle_top": "",
             "title": "THRILLING FOODS BAKON™",
             "title_2": "",
@@ -389,6 +390,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bakon_special_offer.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/bakon_special_offer_2_a5ff54e1-d55f-49a9-9b9d-74a017910b2f.jpg",
             "subtitle_top": "SPECIAL OFFER",
             "title": "BUY TWO",
             "title_2": "GET ONE FREE",
