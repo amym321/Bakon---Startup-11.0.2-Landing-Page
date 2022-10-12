@@ -420,11 +420,12 @@
           "type": "image",
           "settings": {
             "media_alignment": "left",
-            "title": "Alternating content",
-            "title_2": "Heading 2",
-            "caption": "Employ up to three alternating features with an option to align images or videos to the left\/right and include a call to action below.",
+            "title": "THRILLING NEWS",
+            "title_2": "",
+            "caption": "We're closing the flavor gap in plant-based meat.\n\nJoin our newsletter for updates, new product announcements, and special offers.",
             "button_text": "",
-            "button_link": ""
+            "button_link": "",
+            "image": "shopify:\/\/shop_images\/bakon_sandwhich.jpg"
           }
         }
       },
@@ -432,7 +433,7 @@
         "template--15994132889787__c92a8548-2320-4746-8e4e-50d80dc9ab98-1665529762d5e35065-0"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "email",
         "style": "default-style",
         "title": "",
         "show_borders": false
