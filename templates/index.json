@@ -26,7 +26,7 @@
         "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "top-banner",
         "show_shadows": false,
         "slideshow_layout": "full-width",
         "slideshow_height_desktop": "original",
@@ -131,7 +131,7 @@
         "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "ingredients",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -157,7 +157,7 @@
         "6cd65d75-9b41-4bd6-99ca-3bb5435f5c0b"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "save-pigs",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -183,7 +183,7 @@
         "template--15994132889787__db1c7296-49d6-4fbf-b488-0c0c4a73d604-1665524840258f1c1d-0"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "everything",
         "style": "default-style",
         "title": "",
         "show_borders": false
@@ -308,7 +308,7 @@
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "different",
         "style": "default-style",
         "title": "WHAT MAKES BAKON™ DIFFERENT?",
         "heading_subtext": "Added text under the heading",
@@ -370,7 +370,7 @@
         "b6b16d74-c858-4d45-aa98-190b94ee7615"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "review",
         "style": "default-style",
         "title": "THRILLING REVIEWS",
         "heading_subtext": "Added text under the heading",
@@ -403,7 +403,7 @@
         "template--15994132889787__36ce41a2-efa1-4419-af0d-853fdc8fded0-1665529741db5a4fff-0"
       ],
       "settings": {
-        "custom_field": "",
+        "custom_field": "special",
         "show_shadows": false,
         "slideshow_layout": "full-width",
         "slideshow_height_desktop": "medium",
