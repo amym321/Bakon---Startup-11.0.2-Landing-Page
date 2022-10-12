@@ -1,5 +1,5 @@
 <section
-  class="module-container {{ section.settings.style }}"
+  class="module-container {{ section.settings.style }} {% if section.settings.custom_field %} {{ section.settings.custom_field }} {% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="dynamic-inline-feature"
 >
@@ -10,7 +10,7 @@
     {% endif %}
 
     {% if section.settings.heading_subtext != blank %}
-      <p class="section-title">{{ section.settings.heading_subtext | escape }}</p>
+      <p class="section-title subheading">{{ section.settings.heading_subtext | escape }}</p>
     {% endif %}
 
     {% for block in section.blocks %}

@@ -1,5 +1,6 @@
 <section
-  class="module-container {{ section.settings.style }} {% if section.settings.show_borders %}borders{% endif %}"
+  class="module-container {{ section.settings.style }} {% if section.settings.show_borders %}borders{% endif %}
+    {% if section.settings.custom_field %} {{ section.settings.custom_field }} {% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="alternating-features">
   <div class="module-inner home-left-right-features">

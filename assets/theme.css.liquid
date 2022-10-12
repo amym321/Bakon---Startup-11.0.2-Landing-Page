@@ -12425,7 +12425,12 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   border-top:none;
 }
 
-/* LOGO LIST allows 8 across */
+/* LOGO LIST  */
+.logo {
+  background-color: #FBF6F0;
+  color: #821515;
+}
+
 .rows-of-8 .dynamic-logo-list-item { 
   width: 12.5%;
 }
@@ -12436,17 +12441,51 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 /* TEXT COLUMNS WITH IMAGES for Reviews */
-.review .module-container .home-inline-feature {
-  color: #???;
+.review {
+  background-color: #E7EBD7;
+  color:#37471F;
 }
+
+.review .subheading {
+  padding-top: 0;
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 @media (min-width: 720px){  
-  .review .module-container .home-inline-feature {
+  .review .home-inline-feature {
     width: 25%;
+  }
+  .review .home-inline-text {
+    padding: 0 5px;
   }
 }
 
 /* TEXT COLUMNS WITH IMAGES for Different */
-.different {}
+.different {
+  background-color:#37471F;
+  color: #FAF0DF;
+}
+
+.different  h1, .different  .home-inline-cta  a {
+  color: #FAF0DF !important;
+}
+
+.different  .home-inline-cta  a {
+  font-weight: 800;
+}
+
+.different  .home-inline-cta {
+  margin: 1em 2.5em;
+}
+@media (max-width: 719px){  
+  .different  .home-inline-cta {
+    margin: 1em 3.5em;
+  }
+}
+
 
 /* ALTERNATING CONTENT for Plant Based */
 .plant-based {}

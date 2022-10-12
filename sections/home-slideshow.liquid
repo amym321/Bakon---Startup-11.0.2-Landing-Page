@@ -86,6 +86,7 @@
 
 <section
   class="
+    {% if section.settings.custom_field %} {{ section.settings.custom_field }} {% endif %}
     slideshow
     {{ slideshow_classes }}
   "

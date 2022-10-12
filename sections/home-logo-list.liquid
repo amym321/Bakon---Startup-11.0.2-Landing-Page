@@ -1,5 +1,6 @@
 <section
-  class="module-container {{ section.settings.style }} rows-of-{{ section.settings.logos_in_rows }}"
+  class="module-container {{ section.settings.style }} rows-of-{{ section.settings.logos_in_rows }}
+    {% if section.settings.custom_field %} {{ section.settings.custom_field }} {% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="featured-press">
   <div class="module-inner module-inline-items dynamic-logo-list">
@@ -42,6 +43,11 @@
   "name": "Logo list",
   "max_blocks": 12,
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_field",
+      "label": "Custom Field for Section"
+    },
     {
       "type": "select",
       "id": "style",
