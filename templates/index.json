@@ -425,7 +425,6 @@
     },
     "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87": {
       "type": "pxs-newsletter",
-      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "text": "<p>Invite customers to join your mailing list.<\/p>",
