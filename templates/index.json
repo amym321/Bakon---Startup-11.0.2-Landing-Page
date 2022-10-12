@@ -261,28 +261,28 @@
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-0": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
-            "button_text": "",
-            "button_link": ""
+            "title": "UNCOMPROMISING TASTE",
+            "caption": "<p>According to our fan club, eating our Bakon Strips™ is exactly like eating pork bacon. For some it's kinda scary. It sizzles in the pan, smells and tastes like pork bacon. It also chews just like traditional crunchy, chewy bacon. So real it's unreal!<\/p><p>————————————————<\/p>",
+            "button_text": "See How to Cook  Bakon™ to Perfection",
+            "button_link": "shopify:\/\/pages\/how-to-cook-bakon™"
           }
         },
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-1": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
-            "button_text": "",
-            "button_link": ""
+            "title": "WHOLE, HEALTHY INGREDIENTS",
+            "caption": "<p>Bakon™ which provides a complete protein (all the aminos required) for a body's maintenance and growth is made from non-GMO soybeans that are made into soy milk, flavored with natural flavors and finished with a traditional salt and smoke cure. No weird powders, isolates, \"liquid smoke\" or any other fake stuff.<\/p><p>———————————————<\/p>",
+            "button_text": "See Ingredients and  Nutrition Facts",
+            "button_link": "shopify:\/\/pages\/bakon™-ingredients-and-nutritional-information"
           }
         },
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2": {
           "type": "text_column",
           "settings": {
-            "title": "Feature title",
-            "caption": "<p>Display up to six features with an option to toggle images on or off, and add unique calls to action.<\/p>",
-            "button_text": "",
-            "button_link": ""
+            "title": "TIME-HONORED PROCESSES",
+            "caption": "<p>We use the age old tofu-making process from Asia to make a whole bean healthy tofu, then we employ a centuries old tradition of salting and smoke curing form Europe to make a very traditional tasting product you will immediately recognize as traditional bacon. Nothing new needed here.<\/p><p>__________________________<\/p>",
+            "button_text": "Learn About our  Patent-Pending Approach",
+            "button_link": "shopify:\/\/pages\/our-story"
           }
         }
       },
