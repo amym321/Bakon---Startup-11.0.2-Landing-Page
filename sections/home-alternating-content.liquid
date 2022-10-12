@@ -83,6 +83,41 @@
               {% endif %}
             </div>
           {% endif %}
+
+
+          {% if block.settings.title_3 != blank %}
+            <h1 class="feature-title">{{ block.settings.title_3 | escape }}</h1>
+          {% endif %}
+
+          {% if block.settings.caption_2 != blank %}
+            <div class="rte">
+              {% if block.settings.caption_2 != blank %}
+                <p>{{ block.settings.caption_2 | escape | newline_to_br }}</p>
+              {% endif %}
+            </div>
+          {% endif %}
+
+
+
+          {% if section.settings.custom_field == "email" %}
+            {%- capture form_input_classes -%}
+              input-field
+            {%- endcapture -%}
+
+            {%- capture button_classes -%}
+              inline-field-submit
+              button
+            {%- endcapture -%}
+
+            {%
+              render 'newsletter-form',
+              section: section,
+              form_input_classes: form_input_classes,
+              button_classes: button_classes
+            %}
+          {% endif %}
+
+
         </div>
       </article>
     {% endfor %}
@@ -175,6 +210,20 @@
           "label": "Text",
           "default": "Employ up to three alternating features with an option to align images or videos to the left/right and include a call to action below."
         },
+
+        {
+          "type": "text",
+          "id": "title_3",
+          "label": "Heading 3",
+          "default": "Heading 3"
+        },
+        {
+          "type": "textarea",
+          "id": "caption_2",
+          "label": "Text",
+          "default": "Additional text"
+        },
+
         {
           "type": "text",
           "id": "button_text",
