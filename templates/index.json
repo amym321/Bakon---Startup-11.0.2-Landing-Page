@@ -379,7 +379,7 @@
         "custom_field": "review",
         "style": "default-style",
         "title": "THRILLING REVIEWS",
-        "heading_subtext": "Added text under the heading",
+        "heading_subtext": "",
         "max_image_width": 25
       }
     },
