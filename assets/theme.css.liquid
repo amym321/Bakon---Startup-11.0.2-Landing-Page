@@ -12390,6 +12390,14 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 /****** ADDED STYLES - am *******/
 /********************************/
 
+/* FONTS */
+/*
+@font-face { font-family: "proxima-nova, sans-serif;"; src: url('../assets/ProximaNova-Regular.woff')  format('woff'); }
+
+@font-face { font-family: "Compacta BT"; src: url('../assets/Compacta-BT.woff')  format('woff'); }
+/*
+
+
 /* SLIDESHOW */
 .content-width .slideshow__wrapper {
   padding: 40px 0;
@@ -12401,20 +12409,73 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   .slideshow-slide__content, .full-width .slideshow-slide__content {
     max-width: none;
   }
+  .slideshow-slide__image--mobile {
+    display:none;
+  }
 }
 
 @media (max-width: 719px){ 
   .has-image .slideshow-slide__content { 
     text-align:center;
-    background-color:  #FAF0DF;
+  }
+  .slideshow-slide__image--desktop {
+    display:none;
   }
 }
 
 /* SLIDESHOW for Top Banner*/
-.top-banner {}
+@media (max-width: 719px){ 
+  .top-banner  .slideshow-slide__content { 
+    background-color:  #FAF0DF;
+  }
+}
+
 
 /* SLIDESHOW for Special Offer */
-.special {}
+.special {
+  background-color: #E3A6A6;
+}
+@media (max-width: 719px){ 
+  .special .has-image .slideshow-slide__content { 
+    background-color:  #E3A6A6;
+  }
+}
+
+.special p, .special .slideshow-slide__text, .special .slideshow-slide__subheading {
+  color: #542326 !important;
+}
+.special .slideshow-slide__subheading, .special h2 {
+  font-family: oswald;
+}
+.special h2 {
+  color: #fff;
+  font-size: 100px !important;
+}
+.special h2:first-of-type {
+  margin-bottom: 0;
+}
+.special h2:nth-of-type(2) {
+  margin-top: 0;
+}
+.slideshow-slide__subheading {
+  font-size: 60px !important;
+}
+.special p, .special .slideshow-slide__text {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 21px !important;
+}
+
+.special .slideshow-slide__text-line {
+  color: #fff;
+  font-weight: 900;
+}
+
+
+/*{
+  background-color:#821515;
+}*/
+
 
 /* FAQ for Ingredients */
 .ingredients .faq__details {
@@ -12426,9 +12487,13 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 /* LOGO LIST  */
-.logo {
+.logo-section, .logo-section h1 {
   background-color: #FBF6F0;
-  color: #821515;
+  color: #821515 !important;
+}
+
+.logo-section,  .section-title {
+  max-width: none !important;
 }
 
 .rows-of-8 .dynamic-logo-list-item { 
@@ -12467,10 +12532,22 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .different {
   background-color:#37471F;
   color: #FAF0DF;
+  background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Vector.png?v=1665542268");
+  background-position:  center -20%;
 }
 
-.different  h1, .different  .home-inline-cta  a {
+.different  h1, .different  h3, .different  p, .different  .home-inline-cta  a {
   color: #FAF0DF !important;
+}
+
+.different  .feature-title:first-of-type {
+  margin-bottom: 0;
+}
+
+.different .subheading {
+  font-family: oswald;
+  font-weight:800;
+  margin-top: 0 !important;
 }
 
 .different  .home-inline-cta  a {
@@ -12488,19 +12565,57 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 
 
 /* ALTERNATING CONTENT for Plant Based */
-.plant-based {}
+.plant-based {
+  background-color: #D98888;
+}
+
+.plant-based .feature-title {
+  color: #FBF6F0;;
+}
 
 /* ALTERNATING CONTENT for Why Do It */
-.why-do-it {}
+.why-do-it {
+  background-color: #FAF0DF;
+}
+.why-do-it .section-title {
+  color: #9EAC5F;
+}
+.why-do-it .subheading {
+  color: #000;
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
 
 /* ALTERNATING CONTENT for Ingredients */
-.ingredients-image {}
+.ingredients-image, .ingredients-faq, .ingredients-image h1, .ingredients-faq h1 {
+  background-color: #542326;
+  color: #FAF0DF;
+}
+
+
 
 /* ALTERNATING CONTENT for Save The Pigs */
-.save-pigs {}
+.save-pigs {
+  background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981.png?v=1665542252");
+  background-position:  center -20%;
+}
+
+.save-pigs .feature-title:first-of-type {
+  margin-bottom:0;
+}.save-pigs .feature-title:nth-of-type(2) {
+  margin-top:0;
+}
 
 /* ALTERNATING CONTENT for Everything */
-.everything {}
+.everything {
+  background-color:  #D98888;
+}
+
+.everything .feature-title {
+  color: #FAF0DF;
+}
 
 /* ALTERNATING CONTENT for Everything */
 .email {}

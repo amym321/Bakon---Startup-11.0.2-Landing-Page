@@ -1,5 +1,6 @@
 {% liquid
   assign block_slide_image = block.settings.image
+  assign block_slide_image_mobile = block.settings.image_mobile
   assign block_subheading_top = block.settings.subtitle_top
   assign block_slide_title = block.settings.title
   assign block_slide_title_2 = block.settings.title_2
@@ -252,19 +253,19 @@
 
     {%- if block_text_line_1 != blank -%}
       <div class="slideshow-slide__text">
-        {{ block_text_line_1 }}
+        <span class="slideshow-slide__text-line">&#x2714;  </span>  {{ block_text_line_1 }}
       </div>
     {%- endif -%}
 
     {%- if block_text_line_2 != blank -%}
       <div class="slideshow-slide__text">
-        {{ block_text_line_2 }}
+        <span class="slideshow-slide__text-line">&#x2714;  </span>  {{ block_text_line_2 }}
       </div>
     {%- endif -%}
 
     {%- if block_text_line_3 != blank -%}
       <div class="slideshow-slide__text">
-        {{ block_text_line_3 }}
+        <span class="slideshow-slide__text-line">&#x2714;  </span>  {{ block_text_line_3 }}
       </div>
     {%- endif -%}
 
