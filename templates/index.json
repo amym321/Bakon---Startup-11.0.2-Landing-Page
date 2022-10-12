@@ -112,7 +112,7 @@
         "custom_field": "why-do-it",
         "style": "default-style",
         "title": "WHY WE DO IT",
-        "heading_subtext": "Added text under the heading",
+        "heading_subtext": "",
         "max_image_width": 33
       }
     },
