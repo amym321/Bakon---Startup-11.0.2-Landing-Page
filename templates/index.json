@@ -399,7 +399,7 @@
         "slideshow_height_desktop": "medium",
         "slideshow_height_mobile": "medium",
         "slideshow_transition": "transition-slide",
-        "autoplay": true,
+        "autoplay": false,
         "frequency": 5
       }
     },
