@@ -395,8 +395,8 @@
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "overlay_text_color": "#ffffff",
-            "button": "",
-            "link": ""
+            "button": "BUY IT NOW",
+            "link": "shopify:\/\/collections"
           }
         }
       },
