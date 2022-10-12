@@ -5,6 +5,9 @@
   assign block_slide_title_2 = block.settings.title_2
   assign block_subheading = block.settings.subtitle
   assign block_text = block.settings.caption
+  assign block_text_line_1 = block.settings.text_line_1
+  assign block_text_line_2 = block.settings.text_line_2
+  assign block_text_line_3 = block.settings.text_line_3
   assign block_text_color = block.settings.text_color
   assign block_text_alignment = block.settings.alignment
   assign block_crop_images = block.settings.crop
@@ -244,6 +247,24 @@
     {%- if block_text != blank -%}
       <div class="slideshow-slide__text">
         {{ block_text }}
+      </div>
+    {%- endif -%}
+
+    {%- if block_text_line_1 != blank -%}
+      <div class="slideshow-slide__text">
+        {{ block_text_line_1 }}
+      </div>
+    {%- endif -%}
+
+    {%- if block_text_line_2 != blank -%}
+      <div class="slideshow-slide__text">
+        {{ block_text_line_2 }}
+      </div>
+    {%- endif -%}
+
+    {%- if block_text_line_3 != blank -%}
+      <div class="slideshow-slide__text">
+        {{ block_text_line_3 }}
       </div>
     {%- endif -%}
 
