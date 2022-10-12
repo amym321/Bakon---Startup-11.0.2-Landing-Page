@@ -1,6 +1,8 @@
 {% liquid
   assign block_slide_image = block.settings.image
+  assign block_subheading_top = block.settings.subtitle_top
   assign block_slide_title = block.settings.title
+  assign block_slide_title_2 = block.settings.title_2
   assign block_subheading = block.settings.subtitle
   assign block_text = block.settings.caption
   assign block_text_color = block.settings.text_color
@@ -215,9 +217,21 @@
       </p>
     {%- endif -%}
 
+    {%- if block_subheading_top != blank -%}
+      <div class="slideshow-slide__subheading">
+        {{ block_subheading_top | escape }}
+      </div>
+    {%- endif -%}
+
     {%- if block_slide_title != blank -%}
       <h2 class="slideshow-slide__heading">
         {{ block_slide_title | escape }}
+      </h2>
+    {%- endif -%}
+
+    {%- if block_slide_title_2 != blank -%}
+      <h2 class="slideshow-slide__heading">
+        {{ block_slide_title_2 | escape }}
       </h2>
     {%- endif -%}
 

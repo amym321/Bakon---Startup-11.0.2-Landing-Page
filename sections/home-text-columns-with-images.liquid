@@ -9,6 +9,10 @@
       <h3 class="section-title">{{ section.settings.title | escape }}</h3>
     {% endif %}
 
+    {% if section.settings.heading_subtext != blank %}
+      <p class="section-title">{{ section.settings.heading_subtext | escape }}</p>
+    {% endif %}
+
     {% for block in section.blocks %}
       {% capture current %}{% cycle 1, 2, 3 %}{% endcapture %}
       {% assign feature_image = block.settings.image %}
@@ -91,6 +95,12 @@
       "id": "title",
       "label": "Heading",
       "default": "Text columns with images"
+    },
+    {
+      "type": "text",
+      "id": "heading_subtext",
+      "label": "Subheading Text",
+      "default": "Added text under the heading"
     },
     {
       "type": "range",
