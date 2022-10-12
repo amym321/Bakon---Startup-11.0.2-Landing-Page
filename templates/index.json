@@ -312,7 +312,7 @@
         "custom_field": "different",
         "style": "default-style",
         "title": "WHAT MAKES BAKON™ DIFFERENT?",
-        "heading_subtext": "Added text under the heading",
+        "heading_subtext": "",
         "max_image_width": 100
       }
     },
