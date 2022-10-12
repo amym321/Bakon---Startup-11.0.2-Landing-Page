@@ -42,6 +42,10 @@
             <h1 class="feature-title">{{ block.settings.title | escape }}</h1>
           {% endif %}
 
+          {% if block.settings.title_2 != blank %}
+            <h1 class="feature-title">{{ block.settings.title_2 | escape }}</h1>
+          {% endif %}
+
           {% if block.settings.caption != blank %}
             <div class="rte">
               {{ block.settings.caption }}
@@ -123,6 +127,12 @@
           "id": "title",
           "label": "Heading",
           "default": "Feature title"
+        },
+        {
+          "type": "text",
+          "id": "title_2",
+          "label": "Heading 2",
+          "default": "Feature title 2"
         },
         {
           "type": "richtext",
