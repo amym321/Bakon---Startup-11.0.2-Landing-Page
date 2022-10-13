@@ -54,7 +54,7 @@
 
           {% if block.settings.button_link != blank and block.settings.button_text != blank %}
             <p class="home-inline-cta">
-              <a href="{{ block.settings.button_link }}">{{ block.settings.button_text | escape }}</a>
+              <a href="{{ block.settings.button_link }}">{{ block.settings.button_text | newline_to_br  }}</a>
             </p>
           {% endif %}
         </article>
