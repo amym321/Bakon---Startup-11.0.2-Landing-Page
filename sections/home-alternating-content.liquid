@@ -10,14 +10,15 @@
     {% endif %}
 
     {% for block in section.blocks %}
-      {% capture current %}{% cycle 1, 2, 3 %}{% endcapture %}
+      {% capture current %}{% cycle 1, 2, 3, 4, 5, 6, 7, 8, 9 %}{% endcapture %}
 
       {% assign has_button = false %}
       {% if block.settings.button_link != blank and block.settings.button_text != blank %}
         {% assign has_button = true %}
       {% endif %}
 
-      <article class="home-left-right-feature clearfix media-aligned-{{ block.settings.media_alignment }}" {{ block.shopify_attributes }}>
+      <article class="{% if block.type == 'faq' %} hide {% endif %}
+        home-left-right-feature clearfix media-aligned-{{ block.settings.media_alignment }}" {{ block.shopify_attributes }}>
 
         <div class="home-left-right-media">
           {% if block.type == 'image' %}
@@ -85,6 +86,73 @@
           {% endif %}
 
 
+          {%- comment -%} FAQ added - am {%- endcomment -%}
+          {% if section.settings.custom_field == "ingredients-image" %}
+
+            {% liquid
+              assign section = section
+              assign summary_id = 'title-q'
+              assign content_id = 'content-q'
+              assign section_heading = section.settings.title-q
+            %}
+            {% liquid
+              assign section_classes = section_classes | default: ''
+              assign section_attributes = section_attributes | default: ''
+              assign section_heading = section_heading | default: ''
+              assign section_subheading = section_subheading | default: ''
+              assign wrapper_classes = wrapper_classes | default: ''
+              assign wrapper_attributes = wrapper_attributes | default: ''
+              assign summary_id = summary_id | default: nil
+              assign content_id = content_id | default: nil
+            %}
+            <script
+              type="application/json"
+              data-section-type="pxs-faq"
+              data-section-id="{{ section.id }}"
+            >
+            </script>
+
+            <div class="faq {{ section_classes }}">
+
+              <div
+                class="section-wrapper faq__section-wrapper {{ wrapper_classes }}"
+                {{ wrapper_attributes }}
+                data-faq
+              >
+                <div class="section-content faq__section-content">
+                  {%- for block in section.blocks -%}
+                    {% if block.settings[summary_id] %}
+                      {% assign summary = block.settings[summary_id] %}
+                    {% else %}
+                      {% capture summary %}
+                        {{ 'sections.faq.summary' | t }}
+                      {% endcapture %}
+                    {% endif %}
+
+                    {% if block.settings[content_id] %}
+                      {% assign content = block.settings[content_id] %}
+                    {% else %}
+                      {% capture content %}
+                        {{ 'sections.faq.content' | t }}
+                      {% endcapture %}
+                    {% endif %}
+
+                    {%
+                      render 'faq-item',
+                      block: block,
+                      content: content,
+                      summary: summary,
+                      index: forloop.index0
+                    %}
+
+                  {%- endfor -%}
+                </div>
+              </div>
+
+            </div>
+          {% endif %}
+
+
           {% if block.settings.title_3 != blank %}
             <h1 class="feature-title">{{ block.settings.title_3 | escape }}</h1>
           {% endif %}
@@ -97,7 +165,7 @@
           {% endif %}
 
 
-
+          {%- comment -%} Email added - am {%- endcomment -%}
           {% if section.settings.custom_field == "email" %}
             {%- capture form_input_classes -%}
               input-field
@@ -127,7 +195,7 @@
 {% schema %}
 {
   "name": "Alternating content",
-  "max_blocks": 3,
+  "max_blocks": 9,
   "settings": [
     {
       "type": "paragraph",
@@ -171,6 +239,25 @@
     }
   ],
   "blocks": [
+    {
+      "type": "faq",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title-q",
+          "label": "Question",
+          "default": "Want to know anything else?"
+        },
+        {
+          "type": "richtext",
+          "id": "content-a",
+          "label": "Answer",
+          "default": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!</p>"
+        }
+      ]
+    },
+
     {
       "type": "image",
       "name": "Image",

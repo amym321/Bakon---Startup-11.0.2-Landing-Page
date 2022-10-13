@@ -12406,6 +12406,18 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 /****** ADDED STYLES - am *******/
 /********************************/
 
+.hide {
+  display:none;
+}
+
+/* REMOVE HR on sections */
+.default-style + .default-style::before {
+  height: 0;
+  background-color: #ffffff00;
+  color: #ffffff00;
+}
+
+
 /* MAX WIDTH */
 .section__header, .main-content, .pxs-map-card-wrapper, 
 .newsletter-form, .faq__section-header, .faq__section-wrapper, .module-inner, .main-footer,
@@ -12633,6 +12645,23 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   }
 }
 
+@media (min-width: 720px){ 
+  .top-banner .below-slide {
+    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_974_2.png?v=1665680721");
+    display:block;
+    width:100%;
+    transform: translatey(-25px);
+  }
+}
+/*@media (max-width: 719px){ 
+  .top-banner .below-slide {
+    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_974_slim.png?v=1665682244");
+    display:block;
+    width:100%;
+    transform: translatey(-25px);
+  }
+}*/
+
 
 /* SLIDESHOW for Special Offer */
 .special {
@@ -12664,16 +12693,6 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 
-/* FAQ for Ingredients */
-.ingredients .faq__details {
-  padding: 12px 0; 
-  border-bottom: 3px solid #???;
-}  
-.ingredients .faq__details:first-child { 
-  border-top:none;
-}
-
-
 /* LOGO LIST  */
 .logo-section, .logo-section h1 {
   background-color: #FBF6F0;
@@ -12684,14 +12703,18 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   max-width: none !important;
 }
 
-.rows-of-8 .dynamic-logo-list-item { 
+ .rows-of-8 .dynamic-logo-list-item { 
   width: 12.5%;
 }
 @media (max-width: 719px){ 
-  .rows-of-8 .dynamic-logo-list-item { 
-    width: 25%;
+   .rows-of-8 .dynamic-logo-list-item { 
+    width: 50%;
   }
 }
+
+/*.logo-section .module-inner .module-inline-item {
+  padding:0;
+}*/
 
 
 /* TEXT COLUMNS WITH IMAGES for Reviews */
@@ -12786,18 +12809,66 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 
-/* ALTERNATING CONTENT for Ingredients */
-.ingredients-image, .ingredients-faq, .ingredients-image .feature-title, .ingredients-faq .feature-title {
+/* ALTERNATING CONTENT / FAQ for Ingredients */
+.ingredients-image, .ingredients-faq, .ingredients-image .feature-title, .ingredients-faq .feature-title,
+.ingredients-image .faq__summary {
   background-color: #542326;
   color: #FAF0DF;
 }
 
+/* remove jagged image under ingredeients */
+@media (min-width: 720px){ 
+  .ingredients-image::after {
+    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_slim.png?v=1665682259");
+    width:100%;
+    position: absolute;
+    transform: translatey(-40px);
+    overflow-x: hidden;
+  }
+}
+/* jagged image for mobile */
+@media (max-width: 719px){ 
+  .ingredients-image::after  {
+    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_mobile_slim.png?v=1665682248");
+    transform:translatey(-75px);
+    position: absolute;
+    min-width:100%;
+  }
+}
+
+/*.ingredients-image .home-left-right-media {
+  transform: translatey(35px);
+}*/
+
+.ingredients-image .faq__section-wrapper {
+  padding:0;
+}
+
+.ingredients-image .faq__details:first-child { 
+  display:none;
+}
+.ingredients-image .faq__details {
+  padding: 15px 0; 
+}  
+.ingredients-image .faq__details:nth-of-type(2) { 
+  border-top:none;
+}
+
+.ingredients-image .faq__summary::before {
+content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.8 8c0 0.442 -0.038 0.8 -0.481 0.8H3.681C3.239 8.8 3.2 8.442 3.2 8c0 -0.442 0.039 -0.8 0.481 -0.8H12.32c0.442 0 0.48 0.358 0.48 0.8z"/></svg>');
+}
+
+.ingredients-image .faq__summary::after {
+  content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.8 8c0 0.442 -0.038 0.8 -0.481 0.8H8.8v3.519c0 0.442 -0.358 0.481 -0.8 0.481 -0.442 0 -0.8 -0.039 -0.8 -0.481V8.8H3.681C3.239 8.8 3.2 8.442 3.2 8c0 -0.442 0.039 -0.8 0.481 -0.8H7.2V3.681C7.2 3.238 7.558 3.2 8 3.2c0.442 0 0.8 0.038 0.8 0.481V7.2h3.519c0.442 0 0.481 0.358 0.481 0.8z"/></svg> ');
+}
+
 
 /* ALTERNATING CONTENT for Save The Pigs */
-.save-pige::before{
+
+/*.save-pigs::before{
   display:none !important;
-}
-.save-pigs {
+}*/
+/*.save-pigs {
   background-color:#542326;
   background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981.png?v=1665542252");
   background-position:  center -20%;
@@ -12809,6 +12880,10 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   .save-pigs {
     background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_mobile.png?v=1665626164");
   }
+}*/
+
+.save-pigs{
+  background-color:#fff;
 }
 
 .save-pigs .feature-title:first-of-type {
@@ -12868,10 +12943,6 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   flex-grow: 0;
   padding-left: 30px;
 }
-
-
-/* FAQ for Ingredients */
-.ingredients-faq {}
 
 
 /* FOOTER */
