@@ -134,10 +134,26 @@
             "button_link": "",
             "image": "shopify:\/\/shop_images\/hand_with_bakon_bottom.png"
           }
+        },
+        "ed225980-0569-422e-bde2-40026a5421ee": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Want to know anything else?",
+            "content-a": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+          }
+        },
+        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Want to know anything else?",
+            "content-a": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2"
+        "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2",
+        "ed225980-0569-422e-bde2-40026a5421ee",
+        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4"
       ],
       "settings": {
         "custom_field": "ingredients-image",
