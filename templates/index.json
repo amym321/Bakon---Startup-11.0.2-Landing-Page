@@ -146,6 +146,48 @@
         "show_borders": false
       }
     },
+    "cfada77a-bea4-44ac-86ca-50dd909483b1": {
+      "type": "home-faq",
+      "blocks": {
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Orders"
+          }
+        },
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-1": {
+          "type": "faq",
+          "settings": {
+            "title": "When will my order arrive?",
+            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+          }
+        },
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-2": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I return an item if I'm dissatisfied?",
+            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+          }
+        },
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-3": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I change or cancel my order?",
+            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-0",
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-1",
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-2",
+        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-3"
+      ],
+      "settings": {
+        "custom_field": "",
+        "title": "FAQ"
+      }
+    },
     "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6": {
       "type": "home-alternating-content",
       "blocks": {
@@ -468,48 +510,6 @@
         "title": "",
         "show_borders": false
       }
-    },
-    "cfada77a-bea4-44ac-86ca-50dd909483b1": {
-      "type": "home-faq",
-      "blocks": {
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Orders"
-          }
-        },
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-1": {
-          "type": "faq",
-          "settings": {
-            "title": "When will my order arrive?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        },
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-2": {
-          "type": "faq",
-          "settings": {
-            "title": "Can I return an item if I'm dissatisfied?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        },
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-3": {
-          "type": "faq",
-          "settings": {
-            "title": "Can I change or cancel my order?",
-            "content": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-0",
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-1",
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-2",
-        "template--15994132889787__cfada77a-bea4-44ac-86ca-50dd909483b1-16656875217a2ce25a-3"
-      ],
-      "settings": {
-        "custom_field": "",
-        "title": "FAQ"
-      }
     }
   },
   "order": [
@@ -517,6 +517,7 @@
     "c26455d2-8ba6-4124-96e2-13f7d986da5e",
     "home-text-columns-with-images-1",
     "ba704e1c-8518-4342-921d-5dd25177d3b7",
+    "cfada77a-bea4-44ac-86ca-50dd909483b1",
     "49e1f9ac-aeb0-4cfc-bd94-df6fb4ac8aa6",
     "db1c7296-49d6-4fbf-b488-0c0c4a73d604",
     "a136b5b7-21dd-4849-bce1-a3c4bc96ad3d",
@@ -524,7 +525,6 @@
     "3197f01b-0995-4322-a5fe-ce6288b04a55",
     "36ce41a2-efa1-4419-af0d-853fdc8fded0",
     "b4a8a78c-07f7-484d-a2fe-e59eb2f32f87",
-    "c92a8548-2320-4746-8e4e-50d80dc9ab98",
-    "cfada77a-bea4-44ac-86ca-50dd909483b1"
+    "c92a8548-2320-4746-8e4e-50d80dc9ab98"
   ]
 }
