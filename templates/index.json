@@ -138,22 +138,62 @@
         "ed225980-0569-422e-bde2-40026a5421ee": {
           "type": "faq",
           "settings": {
-            "title-q": "Want to know anything else?",
-            "content-a": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+            "title-q": "Citric Acid",
+            "content-a": "<p>Citric Acid detail<\/p>"
           }
         },
         "db6dfe4d-a697-4bd4-8ac3-4a38095187c4": {
           "type": "faq",
           "settings": {
-            "title-q": "Want to know anything else?",
-            "content-a": "<p>Save yourself the time and trouble of writing the same email over and over again by listing your most commonly asked questions and answers here. A dedicated FAQ section should help address the basic needs of your customers, cutting down on customer service emails, increasing conversions, and creating a more satisfying shopping experience!<\/p>"
+            "title-q": "Maple Syrup",
+            "content-a": "<p>Maple Syrup detail<\/p>"
+          }
+        },
+        "4b1ba26c-ae1b-4681-b459-2978893a9b99": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Yeast Extracts",
+            "content-a": ""
+          }
+        },
+        "c155d64f-3461-4cf0-aabe-097c75f0ffdc": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Non-hydrogenated RSPO  Palm Oil Shortening",
+            "content-a": ""
+          }
+        },
+        "2095ebab-1cf0-4dcd-8d5f-12d668870ae4": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Natural Food Colors",
+            "content-a": ""
+          }
+        },
+        "8d40ac14-d3c8-4233-b55e-1f5150fb4d1c": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Sea Salt",
+            "content-a": ""
+          }
+        },
+        "63a5bb0d-3026-45ec-a31d-a8bb24732998": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Non-GMO Soy Milk",
+            "content-a": ""
           }
         }
       },
       "block_order": [
         "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2",
         "ed225980-0569-422e-bde2-40026a5421ee",
-        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4"
+        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4",
+        "4b1ba26c-ae1b-4681-b459-2978893a9b99",
+        "c155d64f-3461-4cf0-aabe-097c75f0ffdc",
+        "2095ebab-1cf0-4dcd-8d5f-12d668870ae4",
+        "8d40ac14-d3c8-4233-b55e-1f5150fb4d1c",
+        "63a5bb0d-3026-45ec-a31d-a8bb24732998"
       ],
       "settings": {
         "custom_field": "ingredients-image",
