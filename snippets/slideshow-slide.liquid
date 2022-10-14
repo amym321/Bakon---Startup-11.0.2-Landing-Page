@@ -233,9 +233,15 @@
     {%- endif -%}
 
     {%- if block_slide_title != blank -%}
-      <h2 class="slideshow-slide__heading">
-        {{ block_slide_title | escape }}
-      </h2>
+      {% if section.settings.custom_field == "top-banner" %}
+        <h2 class="slideshow-slide__heading">
+          {{ block_slide_title | newline_to_br }}
+        </h2>
+      {% else %}
+        <h2 class="slideshow-slide__heading">
+          {{ block_slide_title | escape }}
+        </h2>
+      {% endif %}
     {%- endif -%}
 
     {%- if block_slide_title_2 != blank -%}
