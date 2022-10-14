@@ -710,19 +710,6 @@ table {
   font-display: block;
 }
 
-
-@font-face {
-  font-family: 'Compacta';
-  src: url('{{ "CompactaPlain.woff" | asset_url }}') format("woff");
-}
-
-@font-face {
-  font-family: "Amalfi";
-  src: url('{{ "amalfi_coast-webfont.woff" | asset_url }}') format("woff"),
-       url('{{ "amalfi_coast-webfont.woff2" | asset_url }}') format("woff2");
-}
-
-
 .icon {
   font-family: "Single Product Webicons Regular";
   font-size: 16px;
@@ -12431,79 +12418,31 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   }
 }
 
+
 /* FONTS */
-
-@font-face { font-family: "proxima-nova, sans-serif;"; src: url('../assets/ProximaNova-Regular.woff')  format('woff'); }
-
-
-/*@font-face {
-  font-family: "Compacta BT";
-  src: url('{{ "Compacta-BT.woff" | asset_url }}') format("woff");
-  font-weight: bold;
-}*/
-/*@font-face {
-  font-family: "Compacta";
-  src: url( "CompactaPlain.woff" ) format("woff");
-  font-weight: 400;
-  font-style: normal;
-}*/
-
-@font-face {
-  font-family: 'Compacta';
-  src: url('{{ "CompactaPlain.woff" | asset_url }}') format("woff");
+.top-banner .slideshow-slide__heading, .why-do-it .feature-title, .igredients .feature-title,
+.save-pigs .feature-title, .everything .feature-title, .different .feature-title, 
+.different .feature-title, .special .slideshow-slide__subheading, .special .slideshow-slide__heading,
+.email .feature-title, .footer-title {
+  font-family: 'Anton', sans-serif;
+  font-weight:400;
 }
 
-@font-face {
-  font-family: 'Amalfi';
-  src: url('{{ "amalfi_coast-webfont.woff" | asset_url }}') format("woff"),
-       url('{{ "amalfi_coast-webfont.woff2" | asset_url }}') format("woff2");
+.top-banner .slideshow-slide__heading {
+  font-size: 82px !important;
+  line-height: 82px !important;
 }
-
-/*@font-face {
-  font-family: "NAME OF FONT";
-  src:   url("NAME-OF-FONT-FILE.woff") format("woff");
-  }*/
-
-@font-face {
-  font-family: "Single Product Webicons Regular";
-  src: url('{{ "singleproductwebicons-regular.woff" | asset_url }}') format("woff");
-  font-style: normal;
-  font-weight: normal;
-  font-display: block;
+.top-banner .slideshow-slide__subheading {
+  font-size: 30px !important;
 }
-
-.special .slideshow-slide__subheading, .special h2 {
-  font-family: oswald;
-}
-.logo-section,  .section-title {
-  font-size: 35px;
-}
-.review .section-title {
-  font-size: 32px;
-}
-.review .subheading {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-}
-.different  .section-title {
-  font-size: 82px;
-}
-.different  .feature-title {
-  font-size: 28px;
-}
-.different .subheading {
-  font-family: oswald;
-  font-weight:800;
-}
-.different  .home-inline-cta  a {
-  font-weight: 800;
+.top-banner .slideshow-slide__content a {
+  font-size: 16px !important;
 }
 .plant-based p {
   font-size: 21px;
 }
 .plant-based .feature-title {
-  font-size: 36px;
+  font-size: 38px;
 }
 .why-do-it .section-title {
   font-weight: 700;
@@ -12518,66 +12457,82 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 .why-do-it .feature-title {
   font-size:56px;
 }
-.ingredients-image .feature-title, .ingredients-faq .feature-title {
-  font-size: 82px;
-}
-.save-pigs .feature-title:first-of-type {
-  font-size: 82px;
-}
-.save-pigs .feature-title:nth-of-type(2) {
-  font-size: 82px;
-}
+.ingredients-image .feature-title,
+.save-pigs .feature-title:first-of-type, .save-pigs .feature-title:nth-of-type(2),
 .everything .feature-title {
   font-size: 82px;
+}
+.logo-section,  .section-title {
+  font-size: 35px;
+}
+.different  .section-title {
+  font-size: 78px;
+}
+.different  .feature-title {
+  font-size: 28px;
+}
+.different .subheading {
+  font-weight:800;
+}
+.different  .home-inline-cta  a {
+  font-weight: 800;
+}
+.review .section-title {
+  font-size: 32px;
+}
+.review .subheading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.special .slideshow-slide__heading {
+  font-size: 82px !important;
+  line-height: 82px !important;
+}
+.special .slideshow-slide__subheading {
+  font-size: 48px !important;
+}
+.special p, .special .slideshow-slide__text {
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 20px !important;
+}
+.special .slideshow-slide__content a {
+  font-size: 16px !important;
 }
 .email .feature-title {
   font-size: 44px;
 }
 
-@media (min-width: 720px){
-  .top-banner .slideshow-slide__heading,
-  .special .slideshow-slide__heading {
-/*    font-family: "Compacta";*/
-    font-family: "Amalfi";
-    font-size: 70px !important;
-    line-height: 70px !important;
-    /*letter-spacing: -5px;*/
-  /*  font-size: 132px !important;*/
-  }
-  .top-banner .slideshow-slide__subheading {
-    /*font-size: 48px !important;*/
-    font-size: 30px !important;
-  }
-  .special .slideshow-slide__subheading {
-    font-size: 48px !important;
-  }
-  .special p, .special .slideshow-slide__text {
-    font-family: poppins;
-    font-weight: 500;
-    font-size: 18px !important;
-    line-height: 20px !important;
-  }
-  .top-banner .slideshow-slide__content a,
-  .special .slideshow-slide__content a {
-    font-size: 16px !important;
-  }
-}
 
 @media (max-width: 719px){
   .top-banner  .slideshow-slide__heading,
-  .special  .slideshow-slide__heading {
-    font-family: "Compacta-BT";
-    line-height: 50px !important;
-    font-size: 50px !important;
+  .special  .slideshow-slide__heading,
+  .everything .feature-title,
+  .different  .section-title {
+    line-height: 56px !important;
+    font-size: 56px !important;
   }
   .top-banner  .slideshow-slide__subheading,
   .special  .slideshow-slide__subtext {
     font-size: 22px !important;
   }
-
   .top-banner .slideshow-slide__content a,
   .special .slideshow-slide__content a {
     font-size: 16px !important;
+  }
+  .why-do-it .section-title,
+  .why-do-it .feature-title {
+    font-size:40px;
+  }
+  .ingredients-image .feature-title {
+    font-size: 55px;
+  }
+  .save-pigs .feature-title {
+    font-size: 44px !important;
+  }
+  .email .feature-title {
+    font-size: 36px;
   }
 }
 
@@ -12627,7 +12582,7 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 
 @media (max-width: 719px){
   .has-image .slideshow-slide__content {
-    text-align:center;
+    /*text-align:center;*/
   }
   .slideshow-slide__image--desktop {
     display:none;
@@ -12820,7 +12775,7 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 /* remove jagged image under ingredeients */
 @media (min-width: 720px){
   .ingredients-image::after {
-    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_slim.png?v=1665682259");
+    content: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_slim_3.png?v=1665710369");
     width:100%;
     position: absolute;
     transform: translatey(-40px);
@@ -12840,6 +12795,10 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 /*.ingredients-image .home-left-right-media {
   transform: translatey(35px);
 }*/
+
+.ingredients-image  .home-left-right-text {
+  padding-left: 0; 
+}
 
 .ingredients-image .faq__section-wrapper {
   padding:0;
@@ -12862,6 +12821,12 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
 .ingredients-image .faq__summary::after {
   content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.8 8c0 0.442 -0.038 0.8 -0.481 0.8H8.8v3.519c0 0.442 -0.358 0.481 -0.8 0.481 -0.442 0 -0.8 -0.039 -0.8 -0.481V8.8H3.681C3.239 8.8 3.2 8.442 3.2 8c0 -0.442 0.039 -0.8 0.481 -0.8H7.2V3.681C7.2 3.238 7.558 3.2 8 3.2c0.442 0 0.8 0.038 0.8 0.481V7.2h3.519c0.442 0 0.481 0.358 0.481 0.8z"/></svg> ');
 }
+
+/*@media (min-width: 720px){
+  .ingredients-image img {
+    scale: 1.3;
+  }
+}*/
 
 
 /* ALTERNATING CONTENT for Save The Pigs */
@@ -12894,6 +12859,21 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
   margin-top:0;
 }
 
+/*@media (min-width: 720px){
+  .save-pigs img {
+    scale: 1.1;
+  }
+}
+@media (min-width: 1100px){
+  .save-pigs img {
+    scale: 1.2;
+  }
+}
+@media (min-width: 1200px){
+  .save-pigs img {
+    scale: 1.3;
+  }
+}*/
 
 /* ALTERNATING CONTENT for Everything */
 .everything {
@@ -12909,6 +12889,12 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
     padding-left: 0 !important;
   }
 }
+
+/*@media (min-width: 870px){
+  .everything img {
+    scale: 1.1;
+  }
+}*/
 
 
 /* ALTERNATING CONTENT for Email */

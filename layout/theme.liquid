@@ -13,6 +13,10 @@
   <link rel="preload" href="{{ 'singleproductwebicons-regular.woff' | asset_url }}" as="font" type="font/woff" crossorigin>
   <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
 
+  {%- comment -%} new font - am {%- endcomment -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link rel="preload" href="{{ 'modernizr-2.7.1.min.js' | asset_url  }}" as="script">
 
   <link rel="{{ 'jquery-1.10.0.min.js' | asset_url }}" as="script">
@@ -66,6 +70,9 @@
 
   <!-- Theme CSS -->
   <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
+  {%- comment -%} new font - am {%- endcomment -%}
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
   <!-- Store object -->
   {% comment %}Inject theme-object begin{% endcomment %}
