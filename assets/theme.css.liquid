@@ -12429,14 +12429,14 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 }
 
 .top-banner .slideshow-slide__heading {
-  font-size: 82px !important;
-  line-height: 82px !important;
+  font-size: 82px ;
+  line-height: 82px ;
 }
 .top-banner .slideshow-slide__subheading {
-  font-size: 30px !important;
+  font-size: 30px ;
 }
 .top-banner .slideshow-slide__content a {
-  font-size: 16px !important;
+  font-size: 16px ;
 }
 .plant-based p {
   font-size: 21px;
@@ -12486,22 +12486,54 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   font-size: 1rem;
 }
 .special .slideshow-slide__heading {
-  font-size: 82px !important;
-  line-height: 82px !important;
+  font-size: 82px ;
+  line-height: 82px ;
 }
 .special .slideshow-slide__subheading {
-  font-size: 48px !important;
+  font-size: 48px ;
 }
 .special p, .special .slideshow-slide__text {
   font-weight: 500;
-  font-size: 18px !important;
-  line-height: 20px !important;
+  font-size: 18px ;
+  line-height: 20px ;
 }
 .special .slideshow-slide__content a {
-  font-size: 16px !important;
+  font-size: 16px ;
 }
 .email .feature-title {
   font-size: 44px;
+}
+
+
+
+@media  (max-width: 1180px){
+  .why-do-it .section-title,
+  .why-do-it .feature-title {
+    font-size:40px;
+  }
+  .ingredients-image .feature-title {
+    font-size: 55px;
+  }
+  .save-pigs .feature-title, .save-pigs .feature-title:first-of-type, 
+  .save-pigs .feature-title:nth-of-type(2) {
+    font-size: 44px ;
+  }
+  .everything .feature-title {
+    font-size: 55px ;
+  }
+  .different .section-title {
+    font-size:55px;
+  }
+  .special .slideshow-slide__heading  {
+    line-height: 56px;
+    font-size: 56px ;
+  }
+  .special .slideshow-slide__subheading  {
+    font-size: 36px ;
+  }
+  .email .feature-title {
+    font-size: 36px;
+  }
 }
 
 
@@ -12510,16 +12542,16 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   .special  .slideshow-slide__heading,
   .everything .feature-title,
   .different  .section-title {
-    line-height: 56px !important;
-    font-size: 56px !important;
+    line-height: 56px ;
+    font-size: 56px ;
   }
   .top-banner  .slideshow-slide__subheading,
   .special  .slideshow-slide__subtext {
-    font-size: 22px !important;
+    font-size: 22px ;
   }
   .top-banner .slideshow-slide__content a,
   .special .slideshow-slide__content a {
-    font-size: 16px !important;
+    font-size: 16px ;
   }
   .why-do-it .section-title,
   .why-do-it .feature-title {
@@ -12529,13 +12561,12 @@ body:not(.user-is-tabbing) .faq__summary:focus {
     font-size: 55px;
   }
   .save-pigs .feature-title {
-    font-size: 44px !important;
+    font-size: 44px;
   }
   .email .feature-title {
     font-size: 36px;
   }
 }
-
 
 /* SLIDESHOW */
 .content-width .slideshow__wrapper {
@@ -12751,6 +12782,17 @@ body:not(.user-is-tabbing) .faq__summary:focus {
   color: #FBF6F0;
 }
 
+@media (min-width: 720px){
+  .plant-based img {
+    scale: 1.1;
+  }
+}
+@media (min-width: 1180px){
+  .plant-based  img {
+    scale: 1.25;
+  }
+}
+
 
 /* ALTERNATING CONTENT for Why Do It */
 .why-do-it {
@@ -12766,7 +12808,7 @@ body:not(.user-is-tabbing) .faq__summary:focus {
 
 
 /* ALTERNATING CONTENT / FAQ for Ingredients */
-.ingredients-image, .ingredients-faq, .ingredients-image .feature-title, .ingredients-faq .feature-title,
+.ingredients-image, .ingredients-image .feature-title, 
 .ingredients-image .faq__summary {
   background-color: #542326;
   color: #FAF0DF;
@@ -12791,10 +12833,6 @@ body:not(.user-is-tabbing) .faq__summary:focus {
     min-width:100%;
   }
 }
-
-/*.ingredients-image .home-left-right-media {
-  transform: translatey(35px);
-}*/
 
 .ingredients-image  .home-left-right-text {
   padding-left: 0; 
@@ -12822,30 +12860,26 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
   content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M12.8 8c0 0.442 -0.038 0.8 -0.481 0.8H8.8v3.519c0 0.442 -0.358 0.481 -0.8 0.481 -0.442 0 -0.8 -0.039 -0.8 -0.481V8.8H3.681C3.239 8.8 3.2 8.442 3.2 8c0 -0.442 0.039 -0.8 0.481 -0.8H7.2V3.681C7.2 3.238 7.558 3.2 8 3.2c0.442 0 0.8 0.038 0.8 0.481V7.2h3.519c0.442 0 0.481 0.358 0.481 0.8z"/></svg> ');
 }
 
-/*@media (min-width: 720px){
+@media (min-width: 720px){
+  .ingredients-image img {
+    scale: 1.1;
+  }
+}
+@media (min-width: 1180px){
   .ingredients-image img {
     scale: 1.3;
   }
-}*/
+} 
 
 
 /* ALTERNATING CONTENT for Save The Pigs */
 
-/*.save-pigs::before{
-  display:none !important;
-}*/
 /*.save-pigs {
   background-color:#542326;
   background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981.png?v=1665542252");
   background-position:  center -20%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (max-width: 719px){
-  .save-pigs {
-    background-image: url("https://cdn.shopify.com/s/files/1/0534/1354/4123/files/Group_981_mobile.png?v=1665626164");
-  }
 }*/
 
 .save-pigs{
@@ -12859,21 +12893,12 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
   margin-top:0;
 }
 
-/*@media (min-width: 720px){
-  .save-pigs img {
-    scale: 1.1;
-  }
-}
-@media (min-width: 1100px){
+@media (min-width: 1180px){
   .save-pigs img {
     scale: 1.2;
   }
 }
-@media (min-width: 1200px){
-  .save-pigs img {
-    scale: 1.3;
-  }
-}*/
+
 
 /* ALTERNATING CONTENT for Everything */
 .everything {
@@ -12890,11 +12915,11 @@ content: url('data:image/svg+xml;utf8, <svg width="16px" height="16px" fill="whi
   }
 }
 
-/*@media (min-width: 870px){
+@media (min-width: 1180px){
   .everything img {
-    scale: 1.1;
+    scale: 1.05;
   }
-}*/
+}
 
 
 /* ALTERNATING CONTENT for Email */
