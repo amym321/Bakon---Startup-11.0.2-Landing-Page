@@ -9,9 +9,9 @@
             "image": "shopify:\/\/shop_images\/Bakon_banner_2.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Bakon_banner.jpg",
             "subtitle_top": "",
-            "title": "THRILLING \nFOODS \nBAKON™",
+            "title": "BAKON",
             "title_2": "",
-            "subtitle": "The only authentically cured  plant-based bacon.",
+            "subtitle": "The only authentically cured plant-based bacon.",
             "caption": "",
             "text_line_1": "",
             "text_line_2": "",
@@ -22,7 +22,7 @@
             "overlay_color": "#000000",
             "overlay_text_color": "#ffffff",
             "button": "Taste The Difference",
-            "link": "shopify:\/\/collections\/frontpage"
+            "link": "shopify:\/\/products\/bakon-strips"
           }
         }
       },
