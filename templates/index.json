@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "3684ba1f-069a-4d65-8cf1-513eb6279277": {
@@ -6,8 +15,8 @@
         "template--15994132889787__3684ba1f-069a-4d65-8cf1-513eb6279277-16655248371304ae70-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bakon_banner_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Bakon_banner.jpg",
+            "image": "shopify://shop_images/Bakon_banner_2.jpg",
+            "image_mobile": "shopify://shop_images/Bakon_banner.jpg",
             "subtitle_top": "",
             "title": "THRILLING BAKON",
             "title_2": "",
@@ -22,7 +31,7 @@
             "overlay_color": "#000000",
             "overlay_text_color": "#ffffff",
             "button": "Taste The Difference",
-            "link": "shopify:\/\/products\/bakon-strips"
+            "link": "shopify://products/bakon-strips"
           }
         }
       },
@@ -54,7 +63,7 @@
             "caption_2": "",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/plant_based_bakon.jpg"
+            "image": "shopify://shop_images/plant_based_bakon.jpg"
           }
         }
       },
@@ -76,10 +85,10 @@
           "settings": {
             "title": "SATISFACTION",
             "title_2": "",
-            "caption": "<p>To bring all of the sizzle, aroma, taste and texture of eating meat without the cruelty, and not feeling or a compromise. <\/p>",
+            "caption": "<p>To bring all of the sizzle, aroma, taste and texture of eating meat without the cruelty, and not feeling or a compromise. </p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/satisfaction_2.png"
+            "image": "shopify://shop_images/satisfaction_2.png"
           }
         },
         "block-2": {
@@ -87,10 +96,10 @@
           "settings": {
             "title": "SUSTAINABILITY",
             "title_2": "",
-            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. <\/p>",
+            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. </p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/sustainability_2.png"
+            "image": "shopify://shop_images/sustainability_2.png"
           }
         },
         "block-3": {
@@ -98,10 +107,10 @@
           "settings": {
             "title": "HEALTHY LIVING",
             "title_2": "",
-            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. <\/p>",
+            "caption": "<p>To make products that can help make this world a better place, not harming animals or causing damage to our planet. </p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/healthy_2.png"
+            "image": "shopify://shop_images/healthy_2.png"
           }
         }
       },
@@ -113,7 +122,7 @@
       "settings": {
         "custom_field": "why-do-it",
         "style": "default-style",
-        "title": "WHY WE DO IT",
+        "title": "EAT CLEAN:",
         "heading_subtext": "",
         "max_image_width": 33
       }
@@ -127,47 +136,47 @@
             "media_alignment": "left",
             "title": "INGREDIENTS",
             "title_2": "",
-            "caption": "",
+            "caption": "Unlike our competitors, there's nothing artificial in Thrilling Bakon™. Explore below to learn about each of the nine simple ingredients that make Thrilling Bakon™ so special.",
             "title_3": "",
             "caption_2": "",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/hand_with_bakon_bottom_4.png"
+            "image": "shopify://shop_images/hand_with_bakon_bottom_4.png"
+          }
+        },
+        "63a5bb0d-3026-45ec-a31d-a8bb24732998": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Non-GMO Soybeans",
+            "content-a": "<p>Thoughtfully sourced from a family farm in Iowa, our beans are carefully inspected before beginning the process of becoming Bakon.</p>"
+          }
+        },
+        "c155d64f-3461-4cf0-aabe-097c75f0ffdc": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Sustainably Harvested Palm Shortening",
+            "content-a": "<p>The non-hydrogenated palm oil used in Thrilling Bakon™ is RSPO-certified using the Segregated model, as part of our commitment to sustainable harvest practices throughout our supply chain. </p>"
+          }
+        },
+        "4b1ba26c-ae1b-4681-b459-2978893a9b99": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Yeast Extract",
+            "content-a": "<p>We carefully select non-GMO yeast extracts to provide a craveworthy umami flavor and enhance the mouthfeel of our Bakon™.</p>"
+          }
+        },
+        "2095ebab-1cf0-4dcd-8d5f-12d668870ae4": {
+          "type": "faq",
+          "settings": {
+            "title-q": "Vegetable Extracts (Color)",
+            "content-a": ""
           }
         },
         "ed225980-0569-422e-bde2-40026a5421ee": {
           "type": "faq",
           "settings": {
             "title-q": "Citric Acid",
-            "content-a": "<p>Citric Acid detail<\/p>"
-          }
-        },
-        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4": {
-          "type": "faq",
-          "settings": {
-            "title-q": "Maple Syrup",
-            "content-a": "<p>Maple Syrup detail<\/p>"
-          }
-        },
-        "4b1ba26c-ae1b-4681-b459-2978893a9b99": {
-          "type": "faq",
-          "settings": {
-            "title-q": "Yeast Extracts",
-            "content-a": ""
-          }
-        },
-        "c155d64f-3461-4cf0-aabe-097c75f0ffdc": {
-          "type": "faq",
-          "settings": {
-            "title-q": "Non-hydrogenated RSPO  Palm Oil Shortening",
-            "content-a": ""
-          }
-        },
-        "2095ebab-1cf0-4dcd-8d5f-12d668870ae4": {
-          "type": "faq",
-          "settings": {
-            "title-q": "Natural Food Colors",
-            "content-a": ""
+            "content-a": "<p>Citric Acid detail</p>"
           }
         },
         "8d40ac14-d3c8-4233-b55e-1f5150fb4d1c": {
@@ -177,23 +186,23 @@
             "content-a": ""
           }
         },
-        "63a5bb0d-3026-45ec-a31d-a8bb24732998": {
+        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4": {
           "type": "faq",
           "settings": {
-            "title-q": "Non-GMO Soy Milk",
-            "content-a": ""
+            "title-q": "Maple Syrup",
+            "content-a": "<p>Maple Syrup detail</p>"
           }
         }
       },
       "block_order": [
         "template--15994132889787__ba704e1c-8518-4342-921d-5dd25177d3b7-1665524840258f1c1d-2",
-        "ed225980-0569-422e-bde2-40026a5421ee",
-        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4",
-        "4b1ba26c-ae1b-4681-b459-2978893a9b99",
+        "63a5bb0d-3026-45ec-a31d-a8bb24732998",
         "c155d64f-3461-4cf0-aabe-097c75f0ffdc",
+        "4b1ba26c-ae1b-4681-b459-2978893a9b99",
         "2095ebab-1cf0-4dcd-8d5f-12d668870ae4",
+        "ed225980-0569-422e-bde2-40026a5421ee",
         "8d40ac14-d3c8-4233-b55e-1f5150fb4d1c",
-        "63a5bb0d-3026-45ec-a31d-a8bb24732998"
+        "db6dfe4d-a697-4bd4-8ac3-4a38095187c4"
       ],
       "settings": {
         "custom_field": "ingredients-image",
@@ -211,12 +220,12 @@
             "media_alignment": "right",
             "title": "SAVING THE PIGS.",
             "title_2": "SAVING THE PLANET.",
-            "caption": "We all want to save the world, but let’s face it, we all want to eat what we enjoy. Our message is that we worked to come up with a very acceptable substitute for one of the most beloved meats on the planet, but in a way that was harm free to that planet, and all of its residents.",
+            "caption": "We all want to save the world, but let’s face it, we all want to eat what we enjoy. Our reason for existing is to make it so that you don't have to choose.",
             "title_3": "",
             "caption_2": "",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/Bakon_Save_the_Pigs.png"
+            "image": "shopify://shop_images/Bakon_Save_the_Pigs.png"
           }
         }
       },
@@ -239,12 +248,12 @@
             "media_alignment": "left",
             "title": "GOES GREAT ON EVERYTHING",
             "title_2": "",
-            "caption": "BLTs, salads, cheeseburgers, pasta carbonara, baked potatoes, doughnuts, you name it. Anywhere you would use traditional bacon, Bakon Strips is the perfect meaty, crispy, deeply satisfying substitute. All the taste with zero sacrifice!",
+            "caption": "BLTs, salads, cheeseburgers, pasta carbonara, baked potatoes, doughnuts, you name it. Anywhere one might use pork bacon, Thrilling Bakon™ provides the perfect meaty, crispy, deeply satisfying substitute. All the taste with zero sacrifice!",
             "title_3": "",
             "caption_2": "",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_cheeseburger.jpg"
+            "image": "shopify://shop_images/bakon_cheeseburger.jpg"
           }
         }
       },
@@ -264,57 +273,57 @@
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-0": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_1_3.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_1_3.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-1": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/nopigneva.com\/shop\/meat\/pork\/vegan-bacon-by-thrilling-foods\/",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_5_1.png"
+            "url": "https://nopigneva.com/shop/meat/pork/vegan-bacon-by-thrilling-foods/",
+            "logo": "shopify://shop_images/bakon_Brands_5_1.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-2": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_7_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_7_1.png"
           }
         },
         "template--15994132889787__a136b5b7-21dd-4849-bce1-a3c4bc96ad3d-16655257856c56052c-3": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_8_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_8_1.png"
           }
         },
         "e741b467-b75b-4a6d-b38f-3bbf443d8cbc": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_9_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_9_1.png"
           }
         },
         "007463ed-c302-475b-9f78-772ed6d323a5": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_10_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_10_1.png"
           }
         },
         "0280f1d6-1b79-4490-8ffe-dc5e14a352e1": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_11_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_11_1.png"
           }
         },
         "ac61df36-10c7-43d6-a95a-8c4f0e668b98": {
           "type": "logo",
           "settings": {
-            "url": "https:\/\/www.thrillingfoods.com\/pages\/where-to-buy",
-            "logo": "shopify:\/\/shop_images\/bakon_Brands_12_1.png"
+            "url": "https://www.thrillingfoods.com/pages/where-to-buy",
+            "logo": "shopify://shop_images/bakon_Brands_12_1.png"
           }
         }
       },
@@ -343,10 +352,10 @@
           "settings": {
             "title": "UNCOMPROMISING",
             "title_2": "TASTE",
-            "caption": "<p>According to our fan club, eating our Bakon Strips™ is exactly like eating pork bacon. For some it's kinda scary. It sizzles in the pan, smells and tastes like pork bacon. It also chews just like traditional crunchy, chewy bacon. So real it's unreal!<\/p><p>━━━━━━━━━━━━━━━━<\/p>",
+            "caption": "<p>According to our fan club, eating our Bakon Strips™ is exactly like eating pork bacon. For some it's kinda scary. It sizzles in the pan, smells and tastes like pork bacon. It also chews just like traditional crunchy, chewy bacon. So real it's unreal!</p><p>━━━━━━━━━━━━━━━━</p>",
             "button_text": "See How to Cook \n Bakon™ to Perfection",
-            "button_link": "shopify:\/\/pages\/how-to-cook-thrilling-bakon",
-            "image": "shopify:\/\/shop_images\/Bakon_strips.png"
+            "button_link": "shopify://pages/how-to-cook-thrilling-bakon",
+            "image": "shopify://shop_images/Bakon_strips.png"
           }
         },
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-1": {
@@ -354,10 +363,10 @@
           "settings": {
             "title": "WHOLE, HEALTHY",
             "title_2": "INGREDIENTS",
-            "caption": "<p>Bakon™ which provides a complete protein (all the aminos required) for a body's maintenance and growth is made from non-GMO soybeans that are made into soy milk, flavored with natural flavors and finished with a traditional salt and smoke cure. No weird powders, isolates, \"liquid smoke\" or any other fake stuff.<\/p><p>━━━━━━━━━━━━━━━━<\/p>",
+            "caption": "<p>Bakon™ which provides a complete protein (all the aminos required) for a body's maintenance and growth is made from non-GMO soybeans that are made into soy milk, flavored with natural flavors and finished with a traditional salt and smoke cure. No weird powders, isolates, \"liquid smoke\" or any other fake stuff.</p><p>━━━━━━━━━━━━━━━━</p>",
             "button_text": "See Ingredients and \n Nutrition Facts",
-            "button_link": "shopify:\/\/pages\/bakon™-ingredients-and-nutritional-information",
-            "image": "shopify:\/\/shop_images\/Bakon_frying.png"
+            "button_link": "shopify://pages/bakon™-ingredients-and-nutritional-information",
+            "image": "shopify://shop_images/Bakon_frying.png"
           }
         },
         "template--15994132889787__347e0bdc-08c8-4849-986a-e53c086818b1-16655296429d40b495-2": {
@@ -365,10 +374,10 @@
           "settings": {
             "title": "TIME-HONORED",
             "title_2": "PROCESSES",
-            "caption": "<p>We use the age old tofu-making process from Asia to make a whole bean healthy tofu, then we employ a centuries old tradition of salting and smoke curing form Europe to make a very traditional tasting product you will immediately recognize as traditional bacon. Nothing new needed here.<\/p><p>━━━━━━━━━━━━━━━━<\/p>",
+            "caption": "<p>We use the age old tofu-making process from Asia to make a whole bean healthy tofu, then we employ a centuries old tradition of salting and smoke curing form Europe to make a very traditional tasting product you will immediately recognize as traditional bacon. Nothing new needed here.</p><p>━━━━━━━━━━━━━━━━</p>",
             "button_text": "Learn About our Patent-\nPending Approach",
-            "button_link": "shopify:\/\/pages\/our-story",
-            "image": "shopify:\/\/shop_images\/Bakon_sliced.png"
+            "button_link": "shopify://pages/our-story",
+            "image": "shopify://shop_images/Bakon_sliced.png"
           }
         }
       },
@@ -393,10 +402,10 @@
           "settings": {
             "title": "",
             "title_2": "",
-            "caption": "<p>I have been vegan for almost 9 years ... I've tried just about everything and nothing comes close until today. Taste, texture, mouthfeel, it's EXACTLY how I remember bacon.<\/p><p><strong>@rachelnicholsart<\/strong><\/p><p>★★★★★<\/p>",
+            "caption": "<p>I have been vegan for almost 9 years ... I've tried just about everything and nothing comes close until today. Taste, texture, mouthfeel, it's EXACTLY how I remember bacon.</p><p><strong>@rachelnicholsart</strong></p><p>★★★★★</p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_review_1.png"
+            "image": "shopify://shop_images/bakon_review_1.png"
           }
         },
         "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-1": {
@@ -404,10 +413,10 @@
           "settings": {
             "title": "",
             "title_2": "",
-            "caption": "<p>Fragrance, texture, look and taste is absolutely outstanding! If there was an option to give this 10 Stars I would! Best Plantbased Bakon out there!<\/p><p><strong>@cooknwithplants<\/strong><\/p><p>★★★★★<\/p>",
+            "caption": "<p>Fragrance, texture, look and taste is absolutely outstanding! If there was an option to give this 10 Stars I would! Best Plantbased Bakon out there!</p><p><strong>@cooknwithplants</strong></p><p>★★★★★</p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_review_2.png"
+            "image": "shopify://shop_images/bakon_review_2.png"
           }
         },
         "template--15994132889787__3197f01b-0995-4322-a5fe-ce6288b04a55-16655296095f6b38c2-2": {
@@ -415,10 +424,10 @@
           "settings": {
             "title": "",
             "title_2": "",
-            "caption": "<p>FINALLY, bacon taste and texture from plants. A++++ This is AMAZING vegan bacon, could fool a meat eater easily.<\/p><p><strong>Joseph Short<\/strong><\/p><p>★★★★★<\/p>",
+            "caption": "<p>FINALLY, bacon taste and texture from plants. A++++ This is AMAZING vegan bacon, could fool a meat eater easily.</p><p><strong>Joseph Short</strong></p><p>★★★★★</p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_review_3.png"
+            "image": "shopify://shop_images/bakon_review_3.png"
           }
         },
         "b6b16d74-c858-4d45-aa98-190b94ee7615": {
@@ -426,10 +435,10 @@
           "settings": {
             "title": "",
             "title_2": "",
-            "caption": "<p>The smell and taste is spot on. The best fake bacon we have ever tried.<\/p><p><strong>@melissagut2211<\/strong><\/p><p>★★★★★<\/p>",
+            "caption": "<p>The smell and taste is spot on. The best fake bacon we have ever tried.</p><p><strong>@melissagut2211</strong></p><p>★★★★★</p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_review_4.png"
+            "image": "shopify://shop_images/bakon_review_4.png"
           }
         }
       },
@@ -453,13 +462,13 @@
         "template--15994132889787__36ce41a2-efa1-4419-af0d-853fdc8fded0-1665529741db5a4fff-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bakon_special_offer.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/bakon_special_offer_2_a5ff54e1-d55f-49a9-9b9d-74a017910b2f.jpg",
+            "image": "shopify://shop_images/bakon_special_offer.jpg",
+            "image_mobile": "shopify://shop_images/bakon_special_offer_2_a5ff54e1-d55f-49a9-9b9d-74a017910b2f.jpg",
             "subtitle_top": "SPECIAL OFFER",
             "title": "BUY TWO",
             "title_2": "GET ONE FREE",
             "subtitle": "",
-            "caption": "<p>First two hundred customers can avail our special offer. Hurry and load up your supply of Bakon. It’s a healthy alternative so why not “meat all you can eat”?<\/p>",
+            "caption": "<p>First two hundred customers can avail our special offer. Hurry and load up your supply of Bakon. It’s a healthy alternative so why not “meat all you can eat”?</p>",
             "text_line_1": "Saving the pigs. Saving the planet.",
             "text_line_2": "Healthy meat. Goes great on everything!",
             "text_line_3": "Traditional Taste.",
@@ -469,7 +478,7 @@
             "overlay_color": "#000000",
             "overlay_text_color": "#ffffff",
             "button": "BUY IT NOW",
-            "link": "shopify:\/\/collections\/frontpage"
+            "link": "shopify://collections/frontpage"
           }
         }
       },
@@ -492,7 +501,7 @@
       "disabled": true,
       "settings": {
         "title": "Newsletter",
-        "text": "<p>Invite customers to join your mailing list.<\/p>",
+        "text": "<p>Invite customers to join your mailing list.</p>",
         "desktop_alignment": "left",
         "mobile_alignment": "top"
       }
@@ -508,10 +517,10 @@
             "title_2": "",
             "caption": "We're closing the flavor gap in plant-based meat.\n\nJoin our newsletter for updates, new product announcements, and special offers.",
             "title_3": "OR MAYBE JUST SAY HELLO?",
-            "caption_2": "<p>Whether you're curious about our products, have a novel recipe you want to share, or just want to say hi, we're always listening at <a href=\"mailto:hello@thrillingfoods.com\" title=\"mailto:hello@thrillingfoods.com\">hello@thrillingfoods.com.<\/a> Drop us a line!<\/p>",
+            "caption_2": "<p>Whether you're curious about our products, have a novel recipe you want to share, or just want to say hi, we're always listening at <a href=\"mailto:hello@thrillingfoods.com\" title=\"mailto:hello@thrillingfoods.com\">hello@thrillingfoods.com.</a> Drop us a line!</p>",
             "button_text": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/bakon_sandwhich.jpg"
+            "image": "shopify://shop_images/bakon_sandwhich.jpg"
           }
         }
       },
